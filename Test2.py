@@ -1,83 +1,124 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import svm, preprocessing
 import pandas as pd
-import os
-import time
-from datetime import datetime
+from matplotlib import style
+import statistics
 
-path = "D:\Download\intraQuarter"
-
-def Key_Stats(gather="Total Debt/Equity (mrq)"):
-    statspath = path + '/_KeyStats'
-    stock_list = [x[0] for x in os.walk(statspath)]
-    df = pd.DataFrame(columns = ['Date',
-                                 'Unix',
-                                 'Ticker',
-                                 'DE Ratio',
-                                 'Price',
-                                 'stock_p_change',
-                                 'SP500',
-                                 'sp500_p_change'])
-
-    sp500_df = pd.DataFrame.from_csv("YAHOO-INDEX_GSPC.csv")
-
-    ticker_list=[]
-
-    for each_dir in stock_list[1:25]:
-        each_file = os.listdir(each_dir)
-        ticker = each_dir.split("\\")[3]
-        ticker_list.append(ticker)
-
-        starting_stock_value =False
-        starting_sp500_value =False
-
-        if len(each_file) > 0 :
-            for file in each_file:
-                date_stamp = datetime.strptime(file, '%Y%m%d%H%M%S.html')
-                unix_time = time.mktime(date_stamp.timetuple())
-                full_file_path = each_dir+'/'+file
+style.use("ggplot")
 
 
-                source = open(full_file_path,'r').read()
-                try:
-                    value = float(source.split(gather+':</td><td class="yfnc_tabledata1">')[1].split('</td>')[0])
-
-                    try:
-                         sp500_date = datetime.fromtimestamp(unix_time).strftime('%Y-%m-%d')
-                         row = sp500_df[(sp500_df.index == sp500_date)]
-                         sp500_value = float(row["Adj Close"])
-                    except:
-                         sp500_date = datetime.fromtimestamp(unix_time-259200).strftime('%Y-%m-%d')
-                         row = sp500_df[(sp500_df.index == sp500_date)]
-                         sp500_value = float(row["Adj Close"])
-
-
-                    stock_price = float(source.split('</small><big><b>')[1].split('</b></big>')[0])
-                    print("stock_price:",stock_price,"ticker:",ticker)
-
-                    if not starting_stock_value :
-                        starting_stock_value = stock_price
-                    if not starting_sp500_value :
-                        starting_sp500_value = sp500_value
-
-                    stock_p_change = ((stock_price - starting_stock_value)/ starting_stock_value) * 100
-                    sp500_p_change = ((sp500_value - starting_sp500_value)/ starting_sp500_value) * 100
-
-
-                    df = df.append({'Date':date_stamp,
-                                    'Unix':unix_time,
-                                    'Ticker':ticker,
-                                    'DE Ratio':value,
-                                    'Price':stock_price,
-                                    'stock_p_change':stock_p_change,
-                                    'SP500':sp500_value,
-                                    'sp500_p_change':sp500_p_change}, ignore_index=True)
-
-                except Exception as e:
-                    print(str(e))
+FEATURES =  ['DE Ratio',
+             'Trailing P/E',
+             'Price/Sales',
+             'Price/Book',
+             'Profit Margin',
+             'Operating Margin',
+             'Return on Assets',
+             'Return on Equity',
+             'Revenue Per Share',
+             'Market Cap',
+             'Enterprise Value',
+             'Forward P/E',
+             'PEG Ratio',
+             'Enterprise Value/Revenue',
+             'Enterprise Value/EBITDA',
+             'Revenue',
+             'Gross Profit',
+             'EBITDA',
+             'Net Income Avl to Common ',
+             'Diluted EPS',
+             'Earnings Growth',
+             'Revenue Growth',
+             'Total Cash',
+             'Total Cash Per Share',
+             'Total Debt',
+             'Current Ratio',
+             'Book Value Per Share',
+             'Cash Flow',
+             'Beta',
+             'Held by Insiders',
+             'Held by Institutions',
+             'Shares Short (as of',
+             'Short Ratio',
+             'Short % of Float',
+             'Shares Short (prior ']
 
 
-    save = gather.replace(' ','').replace(')','').replace('(','').replace('/','')+('.csv')
-    print(save)
-    df.to_csv(save)
+def Build_Data_Set():
+    data_df = pd.DataFrame.from_csv("key_stats_acc_perf_NO_NA.csv")
+
+    #data_df = data_df[:100]
+    data_df = data_df.reindex(np.random.permutation(data_df.index))
+    data_df = data_df.replace("NaN",0).replace("N/A",0)
+    
+
+    X = np.array(data_df[FEATURES].values)#.tolist())
+
+    y = (data_df["Status"]
+         .replace("underperform",0)
+         .replace("outperform",1)
+         .values.tolist())
+
+    X = preprocessing.scale(X)
+
+    Z = np.array(data_df[["stock_p_change","sp500_p_change"]])
+    print (Z)
 
 
-Key_Stats()
+    return X,y,Z
+
+
+def Analysis():
+
+    test_size = 1000
+
+    invest_amount = 10000
+    total_invests = 0
+    if_market = 0
+    if_strat = 0
+
+
+
+    
+    X, y, Z = Build_Data_Set()
+    print(len(X))
+
+    
+    clf = svm.SVC(kernel="linear", C= 1.0)
+    clf.fit(X[:-test_size],y[:-test_size])
+
+    correct_count = 0
+
+    for x in range(1, test_size+1):
+        if clf.predict(X[-x])[0] == y[-x]:
+            correct_count += 1
+
+        if clf.predict(X[-x])[0] == 1:
+            invest_return = invest_amount + (invest_amount * (Z[-x][0]/100))
+            market_return = invest_amount + (invest_amount * (Z[-x][1]/100))
+            total_invests += 1
+            if_market += market_return
+            if_strat += invest_return
+            
+
+    print("Accuracy:", (correct_count/test_size) * 100.00)
+
+    print("Total Trades:", total_invests)
+    print("Ending with Strategy:",if_strat)
+    print("Ending with Market:",if_market)
+
+    compared = ((if_strat - if_market) / if_market) * 100.0
+    do_nothing = total_invests * invest_amount
+
+    avg_market = ((if_market - do_nothing) / do_nothing) * 100.0
+    avg_strat = ((if_strat - do_nothing) / do_nothing) * 100.0
+
+
+    
+    print("Compared to market, we earn",str(compared)+"% more")
+    print("Average investment return:", str(avg_strat)+"%")
+    print("Average market return:", str(avg_market)+"%")
+    
+
+Analysis()

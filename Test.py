@@ -144,12 +144,12 @@ def Key_Stats(gather=["Total Debt/Equity",
                     try:
                         sp500_date = datetime.fromtimestamp(unix_time).strftime('%Y-%m-%d')
                         row = sp500_df[(sp500_df.index == sp500_date)]
-                        sp500_value = float(row["Adjusted Close"])
+                        sp500_value = float(row["Adj Close"])
                     except:
                         try:
                             sp500_date = datetime.fromtimestamp(unix_time-259200).strftime('%Y-%m-%d')
                             row = sp500_df[(sp500_df.index == sp500_date)]
-                            sp500_value = float(row["Adjusted Close"])
+                            sp500_value = float(row["Adj Close"])
                         except Exception as e:
                             print("fapsdolkfhasf;lsak",str(e))
 
@@ -159,12 +159,12 @@ def Key_Stats(gather=["Total Debt/Equity",
                     try:
                         sp500_1y = datetime.fromtimestamp(one_year_later).strftime('%Y-%m-%d')
                         row = sp500_df[(sp500_df.index == sp500_1y)]
-                        sp500_1y_value = float(row["Adjusted Close"])
+                        sp500_1y_value = float(row["Adj Close"])
                     except:
                         try:
                             sp500_1y = datetime.fromtimestamp(one_year_later-259200).strftime('%Y-%m-%d')
                             row = sp500_df[(sp500_df.index == sp500_1y)]
-                            sp500_1y_value = float(row["Adjusted Close"])
+                            sp500_1y_value = float(row["Adj Close"])
                         except Exception as e:
                             print("sp500 1 year later issue",str(e))
 
@@ -278,4 +278,3 @@ def Key_Stats(gather=["Total Debt/Equity",
 
 
 Key_Stats()
-
