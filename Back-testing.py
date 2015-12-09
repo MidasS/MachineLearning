@@ -5,11 +5,7 @@ import pandas as pd
 from matplotlib import style
 import statistics
 
-from collections import Counter
-
 style.use("ggplot")
-
-how_much_better = 5
 
 
 FEATURES =  ['DE Ratio',
@@ -48,28 +44,18 @@ FEATURES =  ['DE Ratio',
              'Short % of Float',
              'Shares Short (prior ']
 
-def Status_Calc(stock, sp500):
-    difference = stock - sp500
-
-    if difference > how_much_better:
-        return 1
-    else:
-        return 0
-
 
 def Build_Data_Set():
-    data_df = pd.DataFrame.from_csv("key_stats_acc_perf_NO_NA_enhanced.csv")
+    data_df = pd.DataFrame.from_csv("key_stats_acc_perf_NO_NA.csv")
 
     #data_df = data_df[:100]
     data_df = data_df.reindex(np.random.permutation(data_df.index))
     data_df = data_df.replace("NaN",0).replace("N/A",0)
 
-    data_df["Status2"] = list(map(Status_Calc, data_df["stock_p_change"], data_df["sp500_p_change"]))
-    
 
     X = np.array(data_df[FEATURES].values)#.tolist())
 
-    y = (data_df["Status2"]
+    y = (data_df["Status"]
          .replace("underperform",0)
          .replace("outperform",1)
          .values.tolist())
@@ -82,26 +68,24 @@ def Build_Data_Set():
     return X,y,Z
 
 
-def Analysis():
 
-    test_size = 1
+def Analysis(ker,c,gg):
+
+    test_size = 1000
 
     invest_amount = 10000
-    
     total_invests = 0
-
-    
     if_market = 0
     if_strat = 0
 
 
 
-    
-    X, y, Z = Build_Data_Set()
-    print(len(X))
 
-    
-    clf = svm.SVC(kernel="linear", C= 1.0)
+    X, y, Z = Build_Data_Set()
+    # print(len(X))
+
+
+    clf = svm.SVC(kernel= ker, C= c, gamma=gg)
     clf.fit(X[:-test_size],y[:-test_size])
 
     correct_count = 0
@@ -116,45 +100,34 @@ def Analysis():
             total_invests += 1
             if_market += market_return
             if_strat += invest_return
-            
 
 
-    data_df = pd.DataFrame.from_csv("forward_sample_NO_NA.csv")
+    # print("Accuracy:", (correct_count/test_size) * 100.00)
 
-    data_df = data_df.replace("N/A",0).replace("NaN",0)
+    returnval = correct_count/test_size
+    # print ("!!!",returnval)
+    # print("Total Trades:", total_invests)
+    # print("Ending with Strategy:",if_strat)
+    # print("Ending with Market:",if_market)
 
-    X = np.array(data_df[FEATURES].values)
+    compared = ((if_strat - if_market) / if_market) * 100.0
+    do_nothing = total_invests * invest_amount
 
-    X = preprocessing.scale(X)
-
-    Z = data_df["Ticker"].values.tolist()
-
-    invest_list = []
-
-    for i in range(len(X)):
-        p = clf.predict(X[i])[0]
-        if p == 1:
-            #print(Z[i])
-            invest_list.append(Z[i])
-
-    #print(len(invest_list))
-    #print(invest_list)
-    return invest_list
+    avg_market = ((if_market - do_nothing) / do_nothing) * 100.0
+    avg_strat = ((if_strat - do_nothing) / do_nothing) * 100.0
 
 
-final_list = []
 
-loops = 8
+    # print("Compared to market, we earn",str(compared)+"% more")
+    # print("Average investment return:", str(avg_strat)+"%")
+    # print("Average market return:", str(avg_market)+"%")
+    return returnval
 
-for x in range(loops):
-    stock_list = Analysis()
-    for e in stock_list:
-        final_list.append(e)
+setC = [1,2,3]
 
-x = Counter(final_list)
+for x in range(3):
+    for b in range(3):
+        s = Analysis('rbf',(x+1)*10,(b+1)*10)
+                # kkk = kkk + s
+        print(s)
 
-print(15*"_")
-for each in x:
-    if x[each] > loops - (loops/3):
-        print(each)
-		

@@ -12,6 +12,9 @@ style.use("dark_background")
 import re
 
 path = "D:\Download\intraQuarter"
+
+
+
 def Key_Stats(gather=["Total Debt/Equity",
                       'Trailing P/E',
                       'Price/Sales',
@@ -212,13 +215,13 @@ def Key_Stats(gather=["Total Debt/Equity",
 
                     difference = stock_p_change-sp500_p_change
 
-                    if difference > 5:
-                        status = 1
+                    if difference > 0:
+                        status = "outperform"
                     else:
-                        status = 0
+                        status = "underperform"
 
 
-                    if value_list.count("N/A") > 0:
+                    if value_list.count("N/A") > 15:
                         pass
                     else:
 
@@ -263,7 +266,7 @@ def Key_Stats(gather=["Total Debt/Equity",
                                              'Cash Flow':value_list[27],
                                              'Beta':value_list[28],
                                              'Held by Insiders':value_list[29],
-                                             'key_stats_acc_perf_NO_NA_enhanced.csv")Held by Institutions':value_list[30],
+                                             'Held by Institutions':value_list[30],
                                              'Shares Short (as of':value_list[31],
                                              'Short Ratio':value_list[32],
                                              'Short % of Float':value_list[33],
@@ -274,12 +277,7 @@ def Key_Stats(gather=["Total Debt/Equity",
                     pass
 
 
-
-    df.to_csv("key_stats_acc_perf_NO_NA_enhanced.csv")
-
-
-
-
+    df.to_csv("key_stats_acc_perf_WITH_NA.csv")
 
 
 Key_Stats()
