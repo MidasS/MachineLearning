@@ -8,31 +8,36 @@ style.use("ggplot")
 
 
 # FEATURES = ['width','avg_T','std_T','after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
-FEATURES = ['width','avg_T','std_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
+# FEATURES = ['width','avg_T','std_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
 
 
+class Data_Set():
+
+    FEATURES = ['width','avg_T','std_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
 
 
-def Build_Data_Set():
-    data_df = pd.DataFrame.from_csv("ng_data_train.csv")
-    data_df = data_df.reindex(np.random.permutation(data_df.index))
+    def Build_Data_Set(self):
+        data_df = pd.DataFrame.from_csv("ng_data_train.csv")
+        data_df = data_df.reindex(np.random.permutation(data_df.index))
 
-    X = np.array(data_df[FEATURES].values)
-    X = preprocessing.scale(X)
-    y = (data_df["result_2"].values.tolist())
+        X = np.array(data_df[self.FEATURES].values)
+        X = preprocessing.scale(X)
+        y = (data_df["result_2"].values.tolist())
 
-    data_df2 = pd.DataFrame.from_csv("ng_data_test.csv")
-    data_df2 = data_df2.reindex(np.random.permutation(data_df2.index))
+        data_df2 = pd.DataFrame.from_csv("ng_data_test.csv")
+        data_df2 = data_df2.reindex(np.random.permutation(data_df2.index))
 
-    X2 = np.array(data_df2[FEATURES].values)
-    X2 = preprocessing.scale(X2)
-    y2 = (data_df2["result_2"].values.tolist())
+        X2 = np.array(data_df2[self.FEATURES].values)
+        X2 = preprocessing.scale(X2)
+        y2 = (data_df2["result_2"].values.tolist())
 
 
-    return X,y,X2,y2
+        return X,y,X2,y2
 
 def Analysis():
-    X, y = Build_Data_Set()
+    data_1 = Data_Set()
+
+    X, y = data_1.Build_Data_Set()
 
     clf = svm.SVC(kernel="linear", C= 1.0)
     clf.fit(X,y)
@@ -54,9 +59,9 @@ def Analysis():
 # Analysis()
 
 def Analysis2():
-
+    data_1 = Data_Set()
     test_size = 1500
-    X, y,X2,y2 = Build_Data_Set()
+    X, y,X2,y2 = data_1.Build_Data_Set()
     print(len(X2[:-test_size]))
 
     # print(X[:])
@@ -75,8 +80,8 @@ def Analysis2():
     print("Accuracy:", (correct_count/test_size) * 100.0000)
 
 def Analysis3(kk,cc,gg):
-
-    X, y,X2,y2 = Build_Data_Set()
+    data_1 = Data_Set()
+    X, y,X2,y2 = data_1.Build_Data_Set()
 
 
     clf = svm.SVC(kernel=kk, C= cc, gamma=gg)
@@ -112,6 +117,6 @@ class test():
                     print(i,j,k,':',Analysis3(i,j,k))
 
 
-test()
+# test()
 
 # Analysis3('rbf',10,1)
