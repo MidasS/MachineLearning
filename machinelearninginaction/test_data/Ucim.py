@@ -20,11 +20,11 @@ class Data_Set():
 
 
     # FEATURES = ['avg_T','std_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]','after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
-    FEATURES = ['avg_T','std_T','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]']
+    # FEATURES = ['avg_T','std_T','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]']
     # FEATURES = ['avg_T','std_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
     # FEATURES = ['avg_T','std_T','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]']
-    # FEATURES = ['avg_T','std_T','after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
-    # FEATURES = ['avg_T','std_T','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]']
+    # FEATURES = ['after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
+    # FEATURES = ['after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]' ]
 
     # FEATURES = ['rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
     # FEATURES = ['avg_T','std_T','after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
@@ -35,14 +35,14 @@ class Data_Set():
 
 
     def Build_Data_Set(self):
-        data_df = pd.DataFrame.from_csv("ng_data_train2.csv")
+        data_df = pd.DataFrame.from_csv("ng_data_train3.csv")
         data_df = data_df.reindex(np.random.permutation(data_df.index))
 
         X = np.array(data_df[self.FEATURES].values)
         X = preprocessing.scale(X)
         y = (data_df["result_2"].values.tolist())
 
-        data_df2 = pd.DataFrame.from_csv("ng_data_test2.csv")
+        data_df2 = pd.DataFrame.from_csv("ng_data_test3.csv")
         data_df2 = data_df2.reindex(np.random.permutation(data_df2.index))
 
         X2 = np.array(data_df2[self.FEATURES].values)
@@ -76,26 +76,21 @@ def Analysis():
 
 # Analysis()
 
-def Analysis2():
+def Analysis2(kk,cc,gg):
     data_1 = Data_Set()
-    test_size = 1500
     X, y,X2,y2 = data_1.Build_Data_Set()
-    print(len(X2[:-test_size]))
 
-    # print(X[:])
     clf = svm.SVC(kernel="linear", C= 1.0)
-    clf.fit(X[:-test_size],y[:-test_size])
-    # print(clf.fit(X[:-test_size],y[:-test_size]))
+    clf.fit(X[:],y[:])
 
     correct_count = 0
 
 
-    for x in range(1, test_size+1):
-        # print(len(clf.predict(X[-x])))
-        if clf.predict(X[-x])[0] == y[-x]:
+    for x in range(1, len(X2[:])):
+        if clf.predict(X2[x])[0] == y2[x]:
             correct_count += 1
 
-    print("Accuracy:", (correct_count/test_size) * 100.0000)
+    print("Accuracy:", (correct_count/len(y2)) * 100.00)
 
 def Analysis3(kk,cc,gg):
     data_1 = Data_Set()
@@ -128,7 +123,7 @@ class test():
         # list_g = np.arange(0.001,0.02,0.002)
 
         for i in list_k:
-                    print(i,':',Analysis3(i,100,0.001))
+                    print(i,':',Analysis2(i,100,0.001))
 
 
 # def test2():

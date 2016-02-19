@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from sklearn import svm, preprocessing
 import pandas as pd
 from matplotlib import style
+from sklearn.cross_validation import cross_val_score
+from sklearn.grid_search import GridSearchCV
 style.use("ggplot")
 
 
@@ -23,19 +25,19 @@ class Data_Set():
         data_df = pd.DataFrame.from_csv("final_data.csv")
         data_df = data_df.reindex(np.random.permutation(data_df.index))
 
-        X = np.array(data_df[self.FEATURES].values)
-        X = preprocessing.scale(X)
-        y = (data_df["result_2"].values.tolist())
+        self.X = np.array(data_df[self.FEATURES].values)
+        self.X = preprocessing.scale(self.X)
+        self.y = (data_df["result_2"].values.tolist())
 
         data_df2 = pd.DataFrame.from_csv("new_test3.csv")
         data_df2 = data_df2.reindex(np.random.permutation(data_df2.index))
 
-        X2 = np.array(data_df2[self.FEATURES].values)
-        X2 = preprocessing.scale(X2)
-        y2 = (data_df2["result_2"].values.tolist())
+        self.X2 = np.array(data_df2[self.FEATURES].values)
+        self.X2 = preprocessing.scale(self.X2)
+        self.y2 = (data_df2["result_2"].values.tolist())
 
 
-        return X,y,X2,y2
+        return self.X,self.y
 
 def Analysis():
     data_1 = Data_Set()
@@ -63,24 +65,53 @@ def Analysis():
 
 def Analysis2():
     data_1 = Data_Set()
-    test_size = 1500
-    X, y,X2,y2 = data_1.Build_Data_Set()
-    print(len(X2[:-test_size]))
+    X, y = data_1.Build_Data_Set()
 
-    # print(X[:])
-    clf = svm.SVC(kernel="linear", C= 1.0)
-    clf.fit(X[:-test_size],y[:-test_size])
-    # print(clf.fit(X[:-test_size],y[:-test_size]))
+    c_range = np.arange(0.1,10,0.1)
+    # g_range = np.arange(0.001,0.05,0.002)
+    c_scores = []
+    print(c_range)
+    for c in c_range:
+        clf = svm.SVC(kernel="poly", C= c, gamma= 0.05)
+        scores = cross_val_score(clf,X,y, cv=5, scoring='accuracy')
+        c_scores.append(scores.mean())
 
-    correct_count = 0
+    print(c_scores)
+
+    plt.plot(c_range,c_scores)
+    plt.xlabel('Value of C for SVM')
+    plt.ylabel('Cross-Validated Accuracy')
+    plt.show()
 
 
-    for x in range(1, test_size+1):
-        # print(len(clf.predict(X[-x])))
-        if clf.predict(X[-x])[0] == y[-x]:
-            correct_count += 1
+def Analysis2_5():
+    data_1 = Data_Set()
+    X, y = data_1.Build_Data_Set()
 
-    print("Accuracy:", (correct_count/test_size) * 100.0000)
+    k_list = ['poly','sigmoid']
+    c_range = np.arange(38,42)
+    g_range = np.arange(0.01,0.1,0.02)
+
+    parameters = dict(kernel= k_list ,C= c_range, gamma=g_range )
+    print(parameters)
+
+    grid = GridSearchCV(svm.SVC(),parameters, cv=5)
+    grid.fit(X,y)
+
+    clf = grid.best_estimator_
+    clf2 = grid.best_score_
+    clf3 = grid.param_grid
+    print(grid.grid_scores_)
+    print(clf)
+    print(clf2)
+    print(clf3)
+
+
+    # grid = GridSearchCV(svm.SVC, param_grid, cv=10, scoring='accuracy')
+    # grid.fit(X,y)
+    #
+    # print(grid.best_score_)
+    # print(grid.best_params_)
 
 def Analysis3(kk,cc,gg):
     data_1 = Data_Set()
@@ -134,7 +165,7 @@ class test():
 #     print(correct_count)
 #     print(len(y2))
 #
-
-test()
+Analysis2_5()
+# test()
 
 # Analysis3('rbf',10,1)
