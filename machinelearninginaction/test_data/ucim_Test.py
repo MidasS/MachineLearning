@@ -67,18 +67,30 @@ def Analysis2():
     data_1 = Data_Set()
     X, y = data_1.Build_Data_Set()
 
-    c_range = np.arange(0.1,10,0.1)
+    c_range = np.arange(1,1000,10)
     # g_range = np.arange(0.001,0.05,0.002)
     c_scores = []
+    c2_scores = []
+    c3_scores = []
     print(c_range)
     for c in c_range:
-        clf = svm.SVC(kernel="poly", C= c, gamma= 0.05)
+        clf = svm.SVC(kernel="rbf", C= c, gamma= 0.005)
         scores = cross_val_score(clf,X,y, cv=5, scoring='accuracy')
         c_scores.append(scores.mean())
 
+        clf2 = svm.SVC(kernel="poly", C= c, gamma= 0.005)
+        scores2 = cross_val_score(clf2,X,y, cv=5, scoring='accuracy')
+        c2_scores.append(scores2.mean())
+
+        clf3 = svm.SVC(kernel="sigmoid", C= c, gamma= 0.005)
+        scores3 = cross_val_score(clf3,X,y, cv=5, scoring='accuracy')
+        c3_scores.append(scores3.mean())
+
+    # dic_1 = {c_range :c_scores, c_range : c2_scores, c_range :c3_scores}
+    # print(dic_1)
     print(c_scores)
 
-    plt.plot(c_range,c_scores)
+    plt.plot(c_range,c_scores, 'r-', c_range, c2_scores, 'b--', c_range, c3_scores, 'g:')
     plt.xlabel('Value of C for SVM')
     plt.ylabel('Cross-Validated Accuracy')
     plt.show()
@@ -88,9 +100,9 @@ def Analysis2_5():
     data_1 = Data_Set()
     X, y = data_1.Build_Data_Set()
 
-    k_list = ['poly','sigmoid']
-    c_range = np.arange(38,42)
-    g_range = np.arange(0.01,0.1,0.02)
+    k_list = ['rbf']
+    c_range = np.arange(0.01,100,0.5)
+    g_range = np.arange(0.001,0.1,0.005)
 
     parameters = dict(kernel= k_list ,C= c_range, gamma=g_range )
     print(parameters)
