@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn import svm, preprocessing
 import pandas as pd
 from matplotlib import style
+from mpl_toolkits.mplot3d import Axes3D
 from sklearn.cross_validation import cross_val_score
 from sklearn.grid_search import GridSearchCV
 style.use("ggplot")
@@ -62,6 +63,20 @@ def Analysis():
     plt.show()
 
 # Analysis()
+
+def Analysis2_2():
+    data_1 = Data_Set()
+    X, y = data_1.Build_Data_Set()
+
+    c_scores = []
+
+    clf = svm.SVC(kernel="rbf", C= 1, gamma= 0.001)
+    scores = cross_val_score(clf,X,y, cv=5, scoring='accuracy')
+    c_scores.append(scores.mean())
+
+    print(c_scores)
+
+
 
 def Analysis2():
     data_1 = Data_Set()
@@ -125,6 +140,37 @@ def Analysis2_5():
     # print(grid.best_score_)
     # print(grid.best_params_)
 
+def Analysis2_6():
+
+    data_1 = Data_Set()
+    X, y = data_1.Build_Data_Set()
+
+
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+
+    c_range = np.arange(1,10,1)
+    g_range = np.arange(0.001,0.01,0.001)
+
+    c_scores =[]
+
+    for c in c_range:
+        for g in g_range:
+            clf = svm.SVC(kernel="rbf", C= c, gamma= g)
+            scores = cross_val_score(clf,X,y, cv=5, scoring='accuracy')
+            c_scores.append(scores.mean())
+
+    ax.scatter(c_range, g_range, c_scores, c='r', marker='o')
+
+    ax.set_xlabel('Value of C for SVM')
+    ax.set_ylabel('Value of gamma for SVM')
+    ax.set_zlabel('Accuracy')
+
+    plt.show()
+
+
+
+
 def Analysis3(kk,cc,gg):
     data_1 = Data_Set()
     X, y,X2,y2 = data_1.Build_Data_Set()
@@ -177,7 +223,7 @@ class test():
 #     print(correct_count)
 #     print(len(y2))
 #
-Analysis2_5()
+Analysis2_2()
 # test()
 
 # Analysis3('rbf',10,1)

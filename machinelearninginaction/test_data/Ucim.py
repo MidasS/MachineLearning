@@ -117,7 +117,7 @@ class test():
 
     def __init__(self):
 
-        list_k = ['rbf', 'poly','sigmoid']
+        list_k = ['rbf', 'poly', 'sigmoid']
         # list_c = np.arange(10,500,40)
         # list_c = np.arange(1,300,4)
         # list_g = np.arange(0.001,0.02,0.002)
