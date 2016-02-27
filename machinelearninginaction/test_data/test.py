@@ -7,6 +7,8 @@ from mpl_toolkits.mplot3d import Axes3D
 from sklearn.cross_validation import cross_val_score
 from sklearn.grid_search import GridSearchCV
 style.use("ggplot")
+import pylab, random
+
 
 
 
@@ -59,8 +61,18 @@ class Data_Set():
         fig = plt.figure()
         ax = fig.add_subplot(111, projection='3d')
 
-        c_range = np.arange(1,100,0.5)
-        g_range = np.arange(0.001,0.01,0.002)
+        # c_range = np.arange(1e-2, 1, 1e2)
+        # g_range = np.arange(1e-1, 1, 1e1)
+
+        k_list = ['rbf']
+        c_range = [0.1, 1, 10, 30, 50 , 70, 100]
+        g_range = [0.1, 0.01, 0.001, 0.003, 0.006, 0.008, 0.0001]
+
+        parameters = dict(kernel=k_list ,C= c_range, gamma=g_range)
+
+        grid = GridSearchCV(svm.SVC(),parameters, cv=5)
+        grid.fit(X,y)
+        print("The best parameters are %s with a score of %0.2f"% (grid.best_params_, grid.best_score_))
 
         c_scores =[]
 
@@ -68,15 +80,66 @@ class Data_Set():
             for g in g_range:
                 clf = svm.SVC(kernel="rbf", C= c, gamma= g)
                 scores = cross_val_score(clf,X,y, cv=5, scoring='accuracy')
-                c_scores.append(scores.mean())
+                c_scores.append((c, g, scores.mean()))
 
-        ax.scatter(c_range, g_range, c_scores, c='r', marker='o')
+                clf.fit(X[:],y[:])
+                correct_count = 0
+                type1 = 0
+                type2 = 0
 
+
+                for x in range(1, len(X[:])):
+                    if clf.predict(X[x])[0] == y[x]:
+                        correct_count += 1
+                    elif clf.predict(X[x])[0] == 0 and y[x] == 1:
+                        type1 += 1
+                    elif clf.predict(X[x])[0] == 1 and y[x] == 0:
+                        type2 += 1
+
+
+                print("C:",c, "gamma:",g,"Accuracy:", (correct_count/len(y)) * 100.00)
+                print(correct_count)
+                print(len(y))
+                print(type1)
+                print(type2)
+
+        c2 =[]
+        g2 = []
+        acc2 =[]
+
+        for (k, (self.C, self.g, self.acc)) in enumerate(c_scores):
+        # for C, g, acc in c_scores:
+            c2.append(self.C)
+            g2.append(self.g)
+            acc2.append(self.acc)
+
+
+
+
+        ax.scatter(c2, g2, acc2, c='r', marker='o')
         ax.set_xlabel('Value of C for SVM')
         ax.set_ylabel('Value of gamma for SVM')
         ax.set_zlabel('Accuracy')
-
+        plt.title('Poly accuarcy')
         plt.show()
 
-d1 = Data_Set()
-print(d1.Build_Data_Set())
+
+
+
+c1 = Data_Set()
+c1.Analysis2_6()
+
+
+# fig = pylab.figure()
+# ax = Axes3D(fig)
+#
+# sequence_containing_x_vals = np.arange(0,100)
+# sequence_containing_y_vals = np.arange(0,100)
+# sequence_containing_z_vals = np.arange(0,100)
+#
+# random.shuffle(sequence_containing_x_vals)
+# random.shuffle(sequence_containing_y_vals)
+# random.shuffle(sequence_containing_z_vals)
+#
+# ax.scatter(sequence_containing_x_vals, sequence_containing_y_vals, sequence_containing_z_vals)
+# plt.show()

@@ -115,7 +115,7 @@ def Analysis2_5():
     data_1 = Data_Set()
     X, y = data_1.Build_Data_Set()
 
-    k_list = ['rbf']
+    k_list = ['sigmoid']
     c_range = np.arange(0.01,100,0.5)
     g_range = np.arange(0.001,0.1,0.005)
 
