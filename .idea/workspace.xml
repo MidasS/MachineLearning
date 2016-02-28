@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb1d0e7-9be4-43a5-9f4e-862eeb2eef39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/machinelearninginaction/test_data/test2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MachineLearning.iml" afterPath="$PROJECT_DIR$/.idea/MachineLearning.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/test.py" afterPath="$PROJECT_DIR$/machinelearninginaction/test_data/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ucim_Test.py" afterPath="$PROJECT_DIR$/machinelearninginaction/test_data/ucim_Test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MachineLearning.iws" />
@@ -75,14 +70,14 @@
         <leaf>
           <file leaf-file-name="ng_data2.csv" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data2.csv">
+              <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+                <state />
+              </provider>
               <provider editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="66006">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
-              </provider>
-              <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-                <state />
               </provider>
             </entry>
           </file>
@@ -98,14 +93,14 @@
           </file>
           <file leaf-file-name="ng_data_train.csv" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data_train.csv">
+              <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+                <state />
+              </provider>
               <provider editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="73986">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
-              </provider>
-              <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-                <state />
               </provider>
             </entry>
           </file>
@@ -124,8 +119,8 @@
           <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7311321" vertical-offset="1492" max-vertical-offset="2850">
-                  <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+                <state vertical-scroll-proportion="1.2676057" vertical-offset="787" max-vertical-offset="2850">
+                  <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -135,27 +130,27 @@
           </file>
           <file leaf-file-name="final_data.csv" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/final_data.csv">
+              <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+                <state />
+              </provider>
               <provider editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="45790">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
-              <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-                <state />
-              </provider>
             </entry>
           </file>
           <file leaf-file-name="ng_data.csv" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data.csv">
+              <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+                <state />
+              </provider>
               <provider editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="66006">
                   <caret line="31" column="347" selection-start-line="31" selection-start-column="347" selection-end-line="31" selection-end-column="347" />
                   <folding />
                 </state>
-              </provider>
-              <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-                <state />
               </provider>
             </entry>
           </file>
@@ -178,7 +173,7 @@
           <file leaf-file-name="Ucim.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/Ucim.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5974843" vertical-offset="1653" max-vertical-offset="2945">
+                <state vertical-scroll-proportion="0.41170096" vertical-offset="1653" max-vertical-offset="2945">
                   <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="56" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
@@ -332,7 +327,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../XingTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -716,34 +711,40 @@
       <option name="project" value="LOCAL" />
       <updated>1455953153788</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="334455">
+      <created>1456599709959</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1456599709959</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-169" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12313433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24203822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2966805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1969697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12153518" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1969697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46732026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -764,7 +765,8 @@
     <MESSAGE value="update 222222&#10;" />
     <MESSAGE value="33" />
     <MESSAGE value="3344" />
-    <option name="LAST_COMMIT_MESSAGE" value="3344" />
+    <MESSAGE value="334455" />
+    <option name="LAST_COMMIT_MESSAGE" value="334455" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -774,14 +776,14 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="66006">
           <caret line="31" column="347" selection-start-line="31" selection-start-column="347" selection-end-line="31" selection-end-column="347" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ucim_Test.py">
@@ -795,25 +797,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="66006">
           <caret line="31" column="347" selection-start-line="31" selection-start-column="347" selection-end-line="31" selection-end-column="347" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data2.csv">
       <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data2.csv">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/Ucim.py">
@@ -837,25 +839,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="66006">
           <caret line="31" column="347" selection-start-line="31" selection-start-column="347" selection-end-line="31" selection-end-column="347" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data2.csv">
       <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data2.csv">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/Ucim.py">
@@ -879,25 +881,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="66006">
           <caret line="31" column="347" selection-start-line="31" selection-start-column="347" selection-end-line="31" selection-end-column="347" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data2.csv">
       <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data2.csv">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/Ucim.py">
@@ -921,14 +923,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="66006">
           <caret line="31" column="347" selection-start-line="31" selection-start-column="347" selection-end-line="31" selection-end-column="347" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/Ucim.py">
@@ -942,14 +944,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data2.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="66006">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ucim_Test.py">
@@ -963,14 +965,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="66006">
           <caret line="31" column="347" selection-start-line="31" selection-start-column="347" selection-end-line="31" selection-end-column="347" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/Ucim.py">
@@ -994,14 +996,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="66006">
           <caret line="31" column="347" selection-start-line="31" selection-start-column="347" selection-end-line="31" selection-end-column="347" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -1145,14 +1147,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="66006">
           <caret line="31" column="347" selection-start-line="31" selection-start-column="347" selection-end-line="31" selection-end-column="347" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/README.rst">
@@ -1164,25 +1166,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data_train.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="73986">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/final_data.csv">
       <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/final_data.csv">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="45790">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/test2.py">
@@ -1206,19 +1208,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data2.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="66006">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/Ucim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5974843" vertical-offset="1653" max-vertical-offset="2945">
+        <state vertical-scroll-proportion="0.41170096" vertical-offset="1653" max-vertical-offset="2945">
           <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="56" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -1228,8 +1230,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7311321" vertical-offset="1492" max-vertical-offset="2850">
-          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        <state vertical-scroll-proportion="1.2676057" vertical-offset="787" max-vertical-offset="2850">
+          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
