@@ -64,7 +64,7 @@ class Data_Set():
         # c_range = np.arange(1e-2, 1, 1e2)
         # g_range = np.arange(1e-1, 1, 1e1)
 
-        k_list = ['rbf']
+        k_list = ['sigmoid']
         c_range = [0.1, 1, 10, 30, 50 , 70, 100]
         g_range = [0.1, 0.01, 0.001, 0.003, 0.006, 0.008, 0.0001]
 
@@ -78,7 +78,7 @@ class Data_Set():
 
         for c in c_range:
             for g in g_range:
-                clf = svm.SVC(kernel="rbf", C= c, gamma= g)
+                clf = svm.SVC(kernel="sigmoid", C= c, gamma= g)
                 scores = cross_val_score(clf,X,y, cv=5, scoring='accuracy')
                 c_scores.append((c, g, scores.mean()))
 
@@ -120,7 +120,8 @@ class Data_Set():
         ax.set_xlabel('Value of C for SVM')
         ax.set_ylabel('Value of gamma for SVM')
         ax.set_zlabel('Accuracy')
-        plt.title('Poly accuarcy')
+        ax.set_axis_bgcolor('white')
+        plt.title('Sigmoid accuracy according to C & gamma')
         plt.show()
 
 
