@@ -50,7 +50,7 @@ class Data_Set():
         # c_range = np.arange(1e-2, 1, 1e2)
         # g_range = np.arange(1e-1, 1, 1e1)
 
-        k_list = ['rbf']
+        k_list = ['poly']
         c_range = [0.1, 1, 10, 30, 50 , 70, 100]
         # g_range = [0.1, 0.01, 0.001, 0.003, 0.006, 0.008, 0.0001]
         g_range = [0.005, 0.003, 0.001, 0.0005, 0.0001, 0.00001]
@@ -65,7 +65,7 @@ class Data_Set():
 
         for c in c_range:
             for g in g_range:
-                clf = svm.SVC(kernel="rbf", C= c, gamma= g)
+                clf = svm.SVC(kernel="poly", C= c, gamma= g)
                 scores = cross_val_score(clf,X,y, cv=5, scoring='accuracy')
                 c_scores.append((c, g, scores.mean()))
         #
@@ -103,13 +103,13 @@ class Data_Set():
 
 
 
-        ax.scatter(c2, g2, acc2, c='r', marker='o')
-        ax.set_xlabel('Value of C for SVM')
-        ax.set_ylabel('Value of gamma for SVM')
-        ax.set_zlabel('Accuracy')
-        ax.set_axis_bgcolor('white')
-        plt.title('rbf Type%s accuracy according to C & gamma' %(t+1))
-        plt.imshow(X)
+        # ax.scatter(c2, g2, acc2, c='r', marker='o')
+        # ax.set_xlabel('Value of C for SVM')
+        # ax.set_ylabel('Value of gamma for SVM')
+        # ax.set_zlabel('Accuracy')
+        # ax.set_axis_bgcolor('white')
+        # plt.title('rbf Type%s accuracy according to C & gamma' %(t+1))
+        # plt.draw()
 
 c1 = Data_Set()
 
@@ -119,16 +119,3 @@ for t, f in enumerate(FEATURESLIST):
     c1.Analysis2_6(t,f)
     print(t)
 
-# fig = pylab.figure()
-# ax = Axes3D(fig)
-#
-# sequence_containing_x_vals = np.arange(0,100)
-# sequence_containing_y_vals = np.arange(0,100)
-# sequence_containing_z_vals = np.arange(0,100)
-#
-# random.shuffle(sequence_containing_x_vals)
-# random.shuffle(sequence_containing_y_vals)
-# random.shuffle(sequence_containing_z_vals)
-#
-# ax.scatter(sequence_containing_x_vals, sequence_containing_y_vals, sequence_containing_z_vals)
-# plt.show()
