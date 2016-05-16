@@ -48,6 +48,9 @@ class Data_Set():
 
         return self.X,self.y
 
+
+
+
 def Analysis():
     data_1 = Data_Set()
 
@@ -75,7 +78,8 @@ def Analysis():
 def Analysis2_2():
     data_1 = Data_Set()
     X, y = data_1.Build_Data_Set()
-
+    print(X.shape)
+    print(X)
     c_scores = []
 
     clf = svm.SVC(kernel="rbf", C= 10, gamma= 0.003)
