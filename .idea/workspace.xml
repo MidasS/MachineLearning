@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb1d0e7-9be4-43a5-9f4e-862eeb2eef39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulation/Population/복사본 경제_시계열데이터.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulation/Population/.ipynb_checkpoints/MainCode-checkpoint.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulation/Population/.ipynb_checkpoints/Test1-checkpoint.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulation/Population/Data_set_001.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulation/Population/Data_set_01.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulation/Population/Data_set_02.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulation/Population/MainCode.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulation/Population/Population_01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Simulation/Population/Test1.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Simulation/Timeseries.ipynb" afterPath="$PROJECT_DIR$/Simulation/Timeseries.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ucim_Test.py" afterPath="$PROJECT_DIR$/machinelearninginaction/test_data/ucim_Test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Simulation/Population/Population_01.py" afterPath="$PROJECT_DIR$/Simulation/Population/Population_01.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Simulation/Population/Test1.ipynb" afterPath="$PROJECT_DIR$/Simulation/Population/Test1.ipynb" />
     </list>
     <ignored path="MachineLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,7 +50,7 @@
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__2_.coverage" NAME="Unittests in ucim_Test (2) Coverage Results" MODIFIED="1463042607638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$sample22.coverage" NAME="sample22 Coverage Results" MODIFIED="1451355169673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test2__1_.coverage" NAME="Test2 (1) Coverage Results" MODIFIED="1449150081036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Population_01.coverage" NAME="Population_01 Coverage Results" MODIFIED="1462865391209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulation/Population" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Population_01.coverage" NAME="Population_01 Coverage Results" MODIFIED="1464684571905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulation/Population" />
     <SUITE FILE_PATH="coverage/MachineLearning$svmMLiA.coverage" NAME="svmMLiA Coverage Results" MODIFIED="1447832774862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/Ch06" />
     <SUITE FILE_PATH="coverage/MachineLearning$sample.coverage" NAME="sample Coverage Results" MODIFIED="1448850417973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test__5_.coverage" NAME="Unittests in test (5) Coverage Results" MODIFIED="1455771140095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
@@ -139,14 +130,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ucim_Test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ucim_Test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ucim_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+            <state relative-caret-position="929">
+              <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test1.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Simulation/Population/Test1.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -171,11 +171,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Population_01.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Population_01.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Simulation/Population/Population_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2128">
-              <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
+            <state relative-caret-position="380">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -220,8 +220,8 @@
         <option value="$PROJECT_DIR$/machinelearninginaction/test_data/test.py" />
         <option value="$PROJECT_DIR$/Simulation/Sample1.py" />
         <option value="$PROJECT_DIR$/Quantopian.py" />
-        <option value="$PROJECT_DIR$/Simulation/Population/Population_01.py" />
         <option value="$PROJECT_DIR$/machinelearninginaction/test_data/ucim_Test.py" />
+        <option value="$PROJECT_DIR$/Simulation/Population/Population_01.py" />
       </list>
     </option>
   </component>
@@ -350,7 +350,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../XingTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -373,7 +373,7 @@
       <recent name="D:\github\MachineLearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in ucim_Test (3)">
+  <component name="RunManager" selected="Python.Population_01">
     <configuration default="false" name="Unittests in ucim_Test (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -704,11 +704,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (3)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Population_01" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Population_01" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -789,7 +789,14 @@
       <option name="project" value="LOCAL" />
       <updated>1462757035890</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="population update">
+      <created>1463387902589</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1463387902589</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -810,15 +817,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16684435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17004265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50541127" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50510204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32359308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25541127" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13311689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -826,11 +835,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29577464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -849,7 +856,8 @@
     <MESSAGE value="33" />
     <MESSAGE value="3344" />
     <MESSAGE value="3344555" />
-    <option name="LAST_COMMIT_MESSAGE" value="3344555" />
+    <MESSAGE value="population update" />
+    <option name="LAST_COMMIT_MESSAGE" value="population update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -865,13 +873,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ng_data2.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ucim_Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1195,16 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simulation/Population/Population_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2128">
-          <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/final_data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1215,8 +1206,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/machinelearninginaction/test_data/ucim_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+        <state relative-caret-position="929">
+          <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simulation/Population/Test1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simulation/Population/Population_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
