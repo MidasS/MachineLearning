@@ -38,6 +38,8 @@ class Data_Set():
         return self.X,self.y
 
 
+
+
     def Analysis2_6(self,t, DS):
 
         data_1 = Data_Set()

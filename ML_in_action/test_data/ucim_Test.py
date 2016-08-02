@@ -48,8 +48,11 @@ class Data_Set():
 
         return self.X,self.y
 
-
-
+def Corr():
+    data_df = pd.DataFrame.from_csv("trim_data.csv")
+    print(data_df.corr(method='pearson'))
+    corr_df = data_df.corr()
+    # print(corr_df>0.7)
 
 def Analysis():
     data_1 = Data_Set()
@@ -235,7 +238,6 @@ class test():
 #     print(correct_count)
 #     print(len(y2))
 #
-Analysis2_2()
-# test()
+Corr()
 
 # Analysis3('rbf',10,1)
