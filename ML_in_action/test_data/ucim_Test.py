@@ -21,12 +21,10 @@ class Data_Set():
     # FEATURES = ['width','avg_T','std_T','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]']
     # FEATURES = ['width','avg_T','std_T','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]']
 
-    # FEATURES = ['avg_T','std_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]','after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
-    # FEATURES = ['avg_T','std_T','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]']
-    # FEATURES = ['avg_T','std_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
-    # FEATURES = ['avg_T','std_T','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]']
     # FEATURES = ['after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
-    FEATURES = ['after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]' ]
+    # FEATURES = ['avg_T','std_T','width','rel_max_T','rel_min_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
+    FEATURES = ['avg_T','std_T', 'width', 'rel_max_T','rel_min_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]','after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
+    # FEATURES = ['avg_T','std_T','rel_max_T','rel_min_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
 
 
 
@@ -50,9 +48,9 @@ class Data_Set():
 
 def Corr():
     data_df = pd.DataFrame.from_csv("trim_data.csv")
-    print(data_df.corr(method='pearson'))
-    corr_df = data_df.corr()
-    # print(corr_df>0.7)
+    # print(data_df.corr(method='pearson'))
+    corr_df = data_df.corr(method='pearson')
+    print(corr_df>0.9)
 
 def Analysis():
     data_1 = Data_Set()
@@ -130,12 +128,14 @@ def Analysis2_5():
     data_1 = Data_Set()
     X, y = data_1.Build_Data_Set()
 
+    # k_list = ['rbf']
+    # k_list = ['poly']
     k_list = ['sigmoid']
-    c_range = np.arange(0.01,100,0.5)
-    g_range = np.arange(0.001,0.1,0.005)
+    c_range = [0.1, 1, 10, 30, 50, 70, 100]
+    g_range = [0.005, 0.003, 0.001, 0.0005, 0.0001, 0.00001]
 
     parameters = dict(kernel= k_list ,C= c_range, gamma=g_range )
-    print(parameters)
+    # print(parameters)
 
     grid = GridSearchCV(svm.SVC(),parameters, cv=5)
     grid.fit(X,y)
@@ -146,7 +146,7 @@ def Analysis2_5():
     print(grid.grid_scores_)
     print(clf)
     print(clf2)
-    print(clf3)
+    # print(clf3)
 
 
     # grid = GridSearchCV(svm.SVC, param_grid, cv=10, scoring='accuracy')
@@ -238,6 +238,5 @@ class test():
 #     print(correct_count)
 #     print(len(y2))
 #
-Corr()
-
+Analysis2_5()
 # Analysis3('rbf',10,1)

@@ -2,280 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb1d0e7-9be4-43a5-9f4e-862eeb2eef39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/chapter02.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/03/chapter03.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/chapter04.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/chapter05.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/06/chapter06.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_action/test_data/trim_data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/Test.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/01/chapter01.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/abaloneCorrHeat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/abaloneCorrMat.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/abaloneParallelPlot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/abaloneSummary.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/abaloneSummaryOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/corrCalc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/corrPlot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/glassCorrHeatMap.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/glassParallelPlot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/glassSummary.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/glassSummary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/linePlots.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/outputRocksVMinesContents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/outputSummaryStats.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/pandasReadSummarize.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/pandasReadSummarizeOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/qqplotAttribute.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/rVMSummaryStats.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/rockVmineContents.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/rockVmineSummaries.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/sampleCorrHeatMap.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/targetCorr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/wineCorrHeatMap.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/wineParallelPlot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/wineSummary.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/wineSummary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/03/classifierPerformance_RocksVMines.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/03/classifierPerformance_RocksVMinesOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/03/classifierRidgeRocksVMines.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/03/classifierRidgeRocksVMinesOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/03/fwdStepwiseWine.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/03/fwdStepwiseWineOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/03/regressionErrorMeasures.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/03/ridgeWine.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/03/ridgeWineOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/cvCurveDetails.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/glmnetOrderedNamesList.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/glmnetWine.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/larsAbalone.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/larsAbaloneOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/larsRocksVMines.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/larsWine.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/larsWine2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/larsWineCV.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/orderedNamesList.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/rocksVMinesCoefOrder.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/04/wineBasisExpand.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/glass/glassENetRegCV.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/rocksVMines/rocksVMinesCoefCurves.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/rocksVMines/rocksVMinesCoefCurvesPrintedOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/rocksVMines/rocksVMinesENetRegCV.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/rocksVMines/rocksVMinesENetRegCVPrintedOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/rocksVMines/rocksVMinesGlmnet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/rocksVMines/rocksVMinesGlmnetPrintedOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/wineCS/wineExpandedLassoCV.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/wineCS/wineLassoCV.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/wineCS/wineLassoCVPrintedOutputNormalizedX.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/wineCS/wineLassoCVPrintedOutputNormalizedXandY.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/wineCS/wineLassoCVPrintedOutputUn-NormalizedX.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/wineCS/wineLassoCoefCurves.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/wineCS/wineLassoCoefCurvesPrintedOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/05/wineCS/wineLassoExpandedCVPrintedOutput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/06/simpleBagging.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/06/simpleGBM.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/06/simpleTree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/06/simpleTreeCV.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/06/wineBagging.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/06/wineGBM.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/06/wineRF.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/06/wineTree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/07/abaloneGBM.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/07/abaloneRF.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/07/glassGbm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/07/glassRF.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/07/rocksVMinesGBM.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/07/rocksVMinesRF.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/07/timingComparisons.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/07/wineBagging.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/07/wineGBM.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML_in_python/ml_in_python_book/07/wineRF.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/EXTRAS/README.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch07/EXTRAS/README.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/EXTRAS/createDist.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch02/EXTRAS/createDist.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/EXTRAS/createDist2.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch02/EXTRAS/createDist2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/EXTRAS/createFirstPlot.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch02/EXTRAS/createFirstPlot.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/EXTRAS/testSet.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch02/testSet.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/README.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch02/README.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/datingTestSet.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch02/datingTestSet.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/datingTestSet2.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch02/datingTestSet2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/digits.zip" afterPath="$PROJECT_DIR$/ML_in_action/Ch02/digits.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/kNN.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch02/kNN.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/testSet.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch02/EXTRAS/testSet.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch03/classifierStorage.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch03/classifierStorage.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch03/lenses.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch03/lenses.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch03/treePlotter.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch03/treePlotter.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch03/trees.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch03/trees.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/EXTRAS/README.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch05/EXTRAS/README.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/EXTRAS/create2Normal.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/EXTRAS/create2Normal.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/EXTRAS/monoDemo.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/EXTRAS/monoDemo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/bayes.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/bayes.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email.zip" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/1.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/10.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/10.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/11.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/11.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/12.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/12.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/13.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/13.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/14.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/14.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/15.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/15.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/16.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/16.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/17.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/17.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/18.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/18.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/19.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/19.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/2.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/20.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/20.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/21.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/21.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/22.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/22.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/23.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/23.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/24.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/24.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/25.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/25.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/3.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/3.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/4.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/4.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/5.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/5.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/6.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/6.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/7.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/7.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/8.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/8.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/ham/9.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/ham/9.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/1.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/10.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/10.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/11.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/11.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/12.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/12.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/13.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/13.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/14.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/14.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/15.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/15.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/16.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/16.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/17.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/17.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/18.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/18.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/19.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/19.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/2.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/20.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/20.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/21.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/21.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/22.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/22.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/23.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/23.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/24.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/24.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/25.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/25.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/3.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/3.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/4.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/4.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/5.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/5.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/6.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/6.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/7.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/7.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/8.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/8.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch04/email/spam/9.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/email/spam/9.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch05/EXTRAS/README.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch04/EXTRAS/README.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch05/EXTRAS/plot2D.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch05/EXTRAS/plot2D.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch05/EXTRAS/plotGD.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch05/EXTRAS/plotGD.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch05/EXTRAS/plotSDerror.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch05/EXTRAS/plotSDerror.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch05/EXTRAS/sigmoidPlot.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch05/EXTRAS/sigmoidPlot.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch05/horseColicTest.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch05/horseColicTest.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch05/horseColicTraining.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch05/horseColicTraining.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch05/logRegres.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch05/logRegres.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch05/testSet.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch05/testSet.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch06/EXTRAS/notLinSeperable.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch06/EXTRAS/notLinSeperable.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch06/EXTRAS/plotRBF.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch06/EXTRAS/plotRBF.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch06/EXTRAS/plotSupportVectors.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch06/EXTRAS/plotSupportVectors.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch06/digits.zip" afterPath="$PROJECT_DIR$/ML_in_action/Ch06/digits.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch06/svmMLiA.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch06/svmMLiA.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch06/test.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch06/test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch06/testSet.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch06/testSet.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch06/testSetRBF.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch06/testSetRBF.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch06/testSetRBF2.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch06/testSetRBF2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch07/EXTRAS/README.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch02/EXTRAS/README.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch07/EXTRAS/simpleDataPlot.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch07/adaboost.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch07/adaboost.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch07/horseColicTest2.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch07/horseColicTest2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch07/horseColicTraining2.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch07/horseColicTraining2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch07/old_adaboost.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch07/old_adaboost.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch08/Old_regression.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch08/Old_regression.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch08/abalone.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch08/abalone.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch08/ex0.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch08/ex0.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch08/ex1.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch08/ex1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch08/regression.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch08/regression.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch08/setHtml/lego10030.html" afterPath="$PROJECT_DIR$/ML_in_action/Ch08/setHtml/lego10030.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch08/setHtml/lego10179.html" afterPath="$PROJECT_DIR$/ML_in_action/Ch08/setHtml/lego10179.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch08/setHtml/lego10181.html" afterPath="$PROJECT_DIR$/ML_in_action/Ch08/setHtml/lego10181.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch08/setHtml/lego10189.html" afterPath="$PROJECT_DIR$/ML_in_action/Ch08/setHtml/lego10189.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch08/setHtml/lego10196.html" afterPath="$PROJECT_DIR$/ML_in_action/Ch08/setHtml/lego10196.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch08/setHtml/lego8288.html" afterPath="$PROJECT_DIR$/ML_in_action/Ch08/setHtml/lego8288.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/bikeSpeedVsIq_test.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/bikeSpeedVsIq_test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/bikeSpeedVsIq_train.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/bikeSpeedVsIq_train.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/ex0.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/ex0.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/ex00.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/ex00.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/ex2.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/ex2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/ex2test.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/ex2test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/exp.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/exp.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/exp2.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/exp2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/expTest.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/expTest.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/regTrees.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/regTrees.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/sine.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/sine.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch09/treeExplore.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch09/treeExplore.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch10/Portland.png" afterPath="$PROJECT_DIR$/ML_in_action/Ch10/Portland.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch10/kMeans.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch10/kMeans.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch10/places.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch10/places.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch10/portlandClubs.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch10/portlandClubs.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch10/testSet.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch10/testSet.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch10/testSet2.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch10/testSet2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch11/apriori.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch11/apriori.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch11/bills20DataSet.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch11/bills20DataSet.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch11/lawAssnRules.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch11/lawAssnRules.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch11/meaning20.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch11/meaning20.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch11/mushroom.dat" afterPath="$PROJECT_DIR$/ML_in_action/Ch11/mushroom.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch11/recent100bills.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch11/recent100bills.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch11/recent20bills.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch11/recent20bills.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch12/fpGrowth.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch12/fpGrowth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch12/kosarak.dat" afterPath="$PROJECT_DIR$/ML_in_action/Ch12/kosarak.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch13/extras/createFig1.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch13/extras/createFig1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch13/extras/createFig2.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch13/extras/createFig2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch13/extras/createFig3.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch13/extras/createFig3.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch13/extras/createFig4.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch13/extras/createFig4.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch13/iris.data.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch13/iris.data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch13/pca.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch13/pca.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch13/secom.data" afterPath="$PROJECT_DIR$/ML_in_action/Ch13/secom.data" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch13/testSet.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch13/testSet.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch13/testSet3.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch13/testSet3.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch14/0_5.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch14/0_5.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch14/svdRec.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch14/svdRec.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/err.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/err.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/inputFile.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/inputFile.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/junk.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/junk.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/kickStart.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/kickStart.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/mrMean.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/mrMean.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/mrMeanMapper.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/mrMeanMapper.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/mrMeanReducer.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/mrMeanReducer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/mrSVM.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/mrSVM.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/mrSVMkickStart.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/mrSVMkickStart.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/myfile.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/myfile.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/myout.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/myout.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/pegasos.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/pegasos.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/proximalSVM.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/proximalSVM.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/py27dbg.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/py27dbg.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/svmDat2.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/svmDat2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/svmDat26" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/svmDat26" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/svmDat27" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/svmDat27" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/svmData.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/svmData.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/testSet.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/testSet.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/testSet200.txt" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/testSet200.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/wc.py" afterPath="$PROJECT_DIR$/ML_in_action/Ch15/wc.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/README.rst" afterPath="$PROJECT_DIR$/ML_in_action/README.rst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/2323.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/2323.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/Ucim.py" afterPath="$PROJECT_DIR$/ML_in_action/test_data/Ucim.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/final_data.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/final_data.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/new_test3.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/new_test3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/new_test4.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/new_test4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/new_test5.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/new_test5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ng_data.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ng_data.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ng_data2.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ng_data2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ng_data3.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ng_data3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ng_data4.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ng_data4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ng_data_test.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ng_data_test.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ng_data_test2.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ng_data_test2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ng_data_test3.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ng_data_test3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ng_data_train.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ng_data_train.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ng_data_train2.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ng_data_train2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ng_data_train3.csv" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ng_data_train3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/test.py" afterPath="$PROJECT_DIR$/ML_in_action/test_data/test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/test2.py" afterPath="$PROJECT_DIR$/ML_in_action/test_data/test2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/machinelearninginaction/test_data/ucim_Test.py" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py" afterPath="$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py" />
     </list>
     <ignored path="MachineLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -291,7 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim__4_.coverage" NAME="Unittests in Ucim (4) Coverage Results" MODIFIED="1455855592589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim.coverage" NAME="Unittests in Ucim Coverage Results" MODIFIED="1455855597773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__4_.coverage" NAME="Unittests in ucim_Test (4) Coverage Results" MODIFIED="1470122655071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__4_.coverage" NAME="Unittests in ucim_Test (4) Coverage Results" MODIFIED="1470299568416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test3.coverage" NAME="Test3 Coverage Results" MODIFIED="1448975238271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$ucim_Test.coverage" NAME="ucim_Test Coverage Results" MODIFIED="1455721339597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Back_testing.coverage" NAME="Back-testing Coverage Results" MODIFIED="1449573972773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -299,14 +27,14 @@
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1455870659956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test__3_.coverage" NAME="Unittests in test (3) Coverage Results" MODIFIED="1455770704892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test4.coverage" NAME="Test4 Coverage Results" MODIFIED="1449467857403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__1_.coverage" NAME="Unittests in ucim_Test (1) Coverage Results" MODIFIED="1470123677939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test.coverage" NAME="Unittests in ucim_Test Coverage Results" MODIFIED="1470124837692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__1_.coverage" NAME="Unittests in ucim_Test (1) Coverage Results" MODIFIED="1470299659099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test.coverage" NAME="Unittests in ucim_Test Coverage Results" MODIFIED="1470299268864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test__1_.coverage" NAME="Unittests in test (1) Coverage Results" MODIFIED="1455771153918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Quantopian.coverage" NAME="Quantopian Coverage Results" MODIFIED="1461662352564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Build_key_stats.coverage" NAME="Build_key_stats Coverage Results" MODIFIED="1449570108648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__3_.coverage" NAME="Unittests in ucim_Test (3) Coverage Results" MODIFIED="1470122517501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__3_.coverage" NAME="Unittests in ucim_Test (3) Coverage Results" MODIFIED="1470299494900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim__5_.coverage" NAME="Unittests in Ucim (5) Coverage Results" MODIFIED="1455855601172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__5_.coverage" NAME="Unittests in ucim_Test (5) Coverage Results" MODIFIED="1470123664279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__5_.coverage" NAME="Unittests in ucim_Test (5) Coverage Results" MODIFIED="1470299057802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test_forward.coverage" NAME="Test_forward Coverage Results" MODIFIED="1449572427355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1449566688716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Build_forward.coverage" NAME="Build_forward Coverage Results" MODIFIED="1449568500992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -318,7 +46,7 @@
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim__1_.coverage" NAME="Unittests in Ucim (1) Coverage Results" MODIFIED="1455855614021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test__2_.coverage" NAME="Unittests in test (2) Coverage Results" MODIFIED="1455770297908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Sample1.coverage" NAME="Sample1 Coverage Results" MODIFIED="1461662356002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulation" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__2_.coverage" NAME="Unittests in ucim_Test (2) Coverage Results" MODIFIED="1470125103296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__2_.coverage" NAME="Unittests in ucim_Test (2) Coverage Results" MODIFIED="1470299362230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$sample22.coverage" NAME="sample22 Coverage Results" MODIFIED="1451355169673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test2__1_.coverage" NAME="Test2 (1) Coverage Results" MODIFIED="1449150081036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Population_01.coverage" NAME="Population_01 Coverage Results" MODIFIED="1464684571905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulation/Population" />
@@ -392,8 +120,8 @@
       <file leaf-file-name="ucim_Test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+            <state relative-caret-position="266">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -497,10 +225,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-299" />
-    <option name="width" value="1096" />
-    <option name="height" value="1896" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -609,76 +337,7 @@
       <recent name="D:\github\MachineLearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in ucim_Test (2)">
-    <configuration default="false" name="Unittests in ucim_Test (4)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_in_action/test_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MachineLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in ucim_Test (5)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_in_action/test_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MachineLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in ucim_Test (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_in_action/test_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MachineLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in ucim_Test (1)">
     <configuration default="false" name="Unittests in ucim_Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -703,6 +362,75 @@
       <method />
     </configuration>
     <configuration default="false" name="Unittests in ucim_Test (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_in_action/test_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MachineLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in ucim_Test (3)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_in_action/test_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MachineLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in ucim_Test (4)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_in_action/test_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MachineLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in ucim_Test (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -935,19 +663,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (4)" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (5)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (3)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (4)" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (5)" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (4)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (4)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (3)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1049,65 +777,81 @@
       <option name="project" value="LOCAL" />
       <updated>1464831770019</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="trim data 업로드 상관계수 함수 추가">
+      <created>1470125553919</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1470125553919</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_ucim_Test - 2016.08.02 at 16h 18m 02s.xml">
+    <history-entry file="Unittests_in_ucim_Test - 2016.08.04 at 17h 28m 27s.xml">
       <configuration name="Unittests in ucim_Test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test - 2016.08.02 at 17h 00m 39s.xml">
-      <configuration name="Unittests in ucim_Test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(1) - 2016.08.02 at 15h 40m 14s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(1) - 2016.08.04 at 17h 05m 21s.xml">
       <configuration name="Unittests in ucim_Test (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(1) - 2016.08.02 at 16h 41m 19s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(1) - 2016.08.04 at 17h 35m 04s.xml">
       <configuration name="Unittests in ucim_Test (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(2) - 2016.08.02 at 16h 21m 53s.xml">
-      <configuration name="Unittests in ucim_Test (2)" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_ucim_Test_(2) - 2016.08.02 at 17h 05m 05s.xml">
       <configuration name="Unittests in ucim_Test (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(3) - 2016.08.02 at 16h 21m 59s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(2) - 2016.08.04 at 17h 30m 11s.xml">
+      <configuration name="Unittests in ucim_Test (2)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ucim_Test_(3) - 2016.08.03 at 15h 46m 27s.xml">
       <configuration name="Unittests in ucim_Test (3)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(4) - 2016.08.02 at 15h 39m 56s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(3) - 2016.08.04 at 17h 32m 02s.xml">
+      <configuration name="Unittests in ucim_Test (3)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ucim_Test_(4) - 2016.08.03 at 15h 48m 17s.xml">
       <configuration name="Unittests in ucim_Test (4)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(4) - 2016.08.02 at 16h 24m 16s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(4) - 2016.08.04 at 17h 33m 35s.xml">
       <configuration name="Unittests in ucim_Test (4)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(5) - 2016.08.02 at 16h 41m 06s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(5) - 2016.08.04 at 17h 24m 44s.xml">
       <configuration name="Unittests in ucim_Test (5)" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-299" width="1096" height="1896" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31660232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50510204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31934202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4947146" sideWeight="0.50208336" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5048754" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4947146" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27843988" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1128,7 +872,8 @@
     <MESSAGE value="3344" />
     <MESSAGE value="3344555" />
     <MESSAGE value="population update" />
-    <option name="LAST_COMMIT_MESSAGE" value="population update" />
+    <MESSAGE value="trim data 업로드 상관계수 함수 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="trim data 업로드 상관계수 함수 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1312,13 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/Lib/site-packages/sklearn/grid_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="705" column="8" selection-start-line="705" selection-start-column="8" selection-end-line="705" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Anaconda3/Lib/site-packages/sklearn/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1488,10 +1226,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/sklearn/grid_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="707" column="29" selection-start-line="707" selection-start-column="29" selection-end-line="707" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        <state relative-caret-position="266">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
