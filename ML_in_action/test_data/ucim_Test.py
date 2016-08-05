@@ -23,8 +23,8 @@ class Data_Set():
 
     # FEATURES = ['after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
     # FEATURES = ['avg_T','std_T','width','rel_max_T','rel_min_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
-    FEATURES = ['avg_T','std_T', 'width', 'rel_max_T','rel_min_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]','after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
-    # FEATURES = ['avg_T','std_T','rel_max_T','rel_min_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
+    # FEATURES = ['avg_T','std_T', 'rel_max_T','rel_min_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]','after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
+    FEATURES = ['avg_T','std_T','width','rel_min_T','after_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
 
 
 
@@ -128,9 +128,9 @@ def Analysis2_5():
     data_1 = Data_Set()
     X, y = data_1.Build_Data_Set()
 
-    # k_list = ['rbf']
+    k_list = ['rbf']
     # k_list = ['poly']
-    k_list = ['sigmoid']
+    # k_list = ['sigmoid']
     c_range = [0.1, 1, 10, 30, 50, 70, 100]
     g_range = [0.005, 0.003, 0.001, 0.0005, 0.0001, 0.00001]
 
@@ -164,18 +164,26 @@ def Analysis2_6():
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
 
-    c_range = np.arange(1,10,1)
-    g_range = np.arange(0.001,0.01,0.001)
+    c_range = np.arange(1,100,1)
+    g_range = np.arange(0.0001,0.01,0.001)
 
+
+    # c_range = [ 0.1, 1, 10, 30, 50, 70, 100]
+    # g_range = [0.01, 0.005, 0.003, 0.001, 0.0005, 0.0001, 0.00001]
+
+    c_range2=[]
+    g_range2=[]
     c_scores =[]
 
     for c in c_range:
         for g in g_range:
             clf = svm.SVC(kernel="rbf", C= c, gamma= g)
             scores = cross_val_score(clf,X,y, cv=5, scoring='accuracy')
+            c_range2.append(c)
+            g_range2.append(g)
             c_scores.append(scores.mean())
 
-    ax.scatter(c_range, g_range, c_scores, c='r', marker='o')
+    ax.scatter(c_range2, g_range2, c_scores, c='r', marker='o')
 
     ax.set_xlabel('Value of C for SVM')
     ax.set_ylabel('Value of gamma for SVM')
@@ -238,5 +246,5 @@ class test():
 #     print(correct_count)
 #     print(len(y2))
 #
-Analysis2_5()
+Analysis2_6()
 # Analysis3('rbf',10,1)

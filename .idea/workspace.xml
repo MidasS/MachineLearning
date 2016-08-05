@@ -19,7 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim__4_.coverage" NAME="Unittests in Ucim (4) Coverage Results" MODIFIED="1455855592589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim.coverage" NAME="Unittests in Ucim Coverage Results" MODIFIED="1455855597773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__4_.coverage" NAME="Unittests in ucim_Test (4) Coverage Results" MODIFIED="1470299568416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__4_.coverage" NAME="Unittests in ucim_Test (4) Coverage Results" MODIFIED="1470381945075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test3.coverage" NAME="Test3 Coverage Results" MODIFIED="1448975238271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$ucim_Test.coverage" NAME="ucim_Test Coverage Results" MODIFIED="1455721339597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Back_testing.coverage" NAME="Back-testing Coverage Results" MODIFIED="1449573972773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -27,14 +27,14 @@
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1455870659956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test__3_.coverage" NAME="Unittests in test (3) Coverage Results" MODIFIED="1455770704892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test4.coverage" NAME="Test4 Coverage Results" MODIFIED="1449467857403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__1_.coverage" NAME="Unittests in ucim_Test (1) Coverage Results" MODIFIED="1470299659099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test.coverage" NAME="Unittests in ucim_Test Coverage Results" MODIFIED="1470299268864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__1_.coverage" NAME="Unittests in ucim_Test (1) Coverage Results" MODIFIED="1470382731834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test.coverage" NAME="Unittests in ucim_Test Coverage Results" MODIFIED="1470381683376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test__1_.coverage" NAME="Unittests in test (1) Coverage Results" MODIFIED="1455771153918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Quantopian.coverage" NAME="Quantopian Coverage Results" MODIFIED="1461662352564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Build_key_stats.coverage" NAME="Build_key_stats Coverage Results" MODIFIED="1449570108648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__3_.coverage" NAME="Unittests in ucim_Test (3) Coverage Results" MODIFIED="1470299494900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__3_.coverage" NAME="Unittests in ucim_Test (3) Coverage Results" MODIFIED="1470382392163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim__5_.coverage" NAME="Unittests in Ucim (5) Coverage Results" MODIFIED="1455855601172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__5_.coverage" NAME="Unittests in ucim_Test (5) Coverage Results" MODIFIED="1470299057802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__5_.coverage" NAME="Unittests in ucim_Test (5) Coverage Results" MODIFIED="1470380605025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test_forward.coverage" NAME="Test_forward Coverage Results" MODIFIED="1449572427355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1449566688716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Build_forward.coverage" NAME="Build_forward Coverage Results" MODIFIED="1449568500992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim__1_.coverage" NAME="Unittests in Ucim (1) Coverage Results" MODIFIED="1455855614021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test__2_.coverage" NAME="Unittests in test (2) Coverage Results" MODIFIED="1455770297908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Sample1.coverage" NAME="Sample1 Coverage Results" MODIFIED="1461662356002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulation" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__2_.coverage" NAME="Unittests in ucim_Test (2) Coverage Results" MODIFIED="1470299362230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__2_.coverage" NAME="Unittests in ucim_Test (2) Coverage Results" MODIFIED="1470381802212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$sample22.coverage" NAME="sample22 Coverage Results" MODIFIED="1451355169673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test2__1_.coverage" NAME="Test2 (1) Coverage Results" MODIFIED="1449150081036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Population_01.coverage" NAME="Population_01 Coverage Results" MODIFIED="1464684571905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulation/Population" />
@@ -88,7 +88,7 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ML_in_action/test_data/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
+            <state relative-caret-position="323">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -100,7 +100,7 @@
       <file leaf-file-name="Ucim.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ML_in_action/test_data/Ucim.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
+            <state relative-caret-position="2755">
               <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
               <folding />
             </state>
@@ -120,8 +120,8 @@
       <file leaf-file-name="ucim_Test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="632">
+              <caret line="171" column="68" selection-start-line="171" selection-start-column="68" selection-end-line="171" selection-end-column="68" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -163,7 +163,7 @@
       <file leaf-file-name="rVMSummaryStats.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/rVMSummaryStats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="532">
               <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="e#27#41#0" expanded="true" />
@@ -255,6 +255,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,8 +309,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,7 +384,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in ucim_Test (3)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in ucim_Test (4)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -407,7 +407,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in ucim_Test (4)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in ucim_Test (3)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -665,15 +665,15 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (3)" />
       <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (1)" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (4)" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (4)" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test (2)" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in ucim_Test" />
       </list>
@@ -784,38 +784,45 @@
       <option name="project" value="LOCAL" />
       <updated>1470125553919</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2_5() 수정">
+      <created>1470302047070</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1470302047070</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_ucim_Test - 2016.08.04 at 17h 28m 27s.xml">
+    <history-entry file="Unittests_in_ucim_Test - 2016.08.05 at 14h 12m 58s.xml">
       <configuration name="Unittests in ucim_Test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(1) - 2016.08.04 at 17h 05m 21s.xml">
-      <configuration name="Unittests in ucim_Test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_ucim_Test - 2016.08.05 at 16h 22m 06s.xml">
+      <configuration name="Unittests in ucim_Test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(1) - 2016.08.04 at 17h 35m 04s.xml">
-      <configuration name="Unittests in ucim_Test (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(2) - 2016.08.02 at 17h 05m 05s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(2) - 2016.08.05 at 14h 14m 20s.xml">
       <configuration name="Unittests in ucim_Test (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(2) - 2016.08.04 at 17h 30m 11s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(2) - 2016.08.05 at 16h 24m 10s.xml">
       <configuration name="Unittests in ucim_Test (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(3) - 2016.08.03 at 15h 46m 27s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(3) - 2016.08.05 at 16h 02m 39s.xml">
       <configuration name="Unittests in ucim_Test (3)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(3) - 2016.08.04 at 17h 32m 02s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(3) - 2016.08.05 at 16h 38m 58s.xml">
       <configuration name="Unittests in ucim_Test (3)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(4) - 2016.08.03 at 15h 48m 17s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(4) - 2016.08.05 at 15h 59m 21s.xml">
       <configuration name="Unittests in ucim_Test (4)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(4) - 2016.08.04 at 17h 33m 35s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(4) - 2016.08.05 at 16h 33m 22s.xml">
       <configuration name="Unittests in ucim_Test (4)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ucim_Test_(5) - 2016.08.04 at 17h 24m 44s.xml">
+    <history-entry file="Unittests_in_ucim_Test_(5) - 2016.08.05 at 13h 37m 11s.xml">
+      <configuration name="Unittests in ucim_Test (5)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ucim_Test_(5) - 2016.08.05 at 16h 03m 48s.xml">
       <configuration name="Unittests in ucim_Test (5)" configurationId="tests" />
     </history-entry>
   </component>
@@ -829,30 +836,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4947146" sideWeight="0.50208336" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5048754" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4947146" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27843988" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27843988" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4947146" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -873,7 +880,8 @@
     <MESSAGE value="3344555" />
     <MESSAGE value="population update" />
     <MESSAGE value="trim data 업로드 상관계수 함수 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="trim data 업로드 상관계수 함수 추가" />
+    <MESSAGE value="2_5() 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="2_5() 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1134,7 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,7 +1183,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ML_in_python/ml_in_python_book/02/rVMSummaryStats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="532">
           <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="e#27#41#0" expanded="true" />
@@ -1188,13 +1195,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ML_in_action/test_data/Ucim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state relative-caret-position="2755">
           <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
           <folding />
         </state>
@@ -1210,7 +1216,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ML_in_action/test_data/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
+        <state relative-caret-position="323">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -1222,7 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="4096" column="31" selection-start-line="4096" selection-start-column="31" selection-end-line="4096" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,14 +1235,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="707" column="29" selection-start-line="707" selection-start-column="29" selection-end-line="707" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ML_in_action/test_data/ucim_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="632">
+          <caret line="171" column="68" selection-start-line="171" selection-start-column="68" selection-end-line="171" selection-end-column="68" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
