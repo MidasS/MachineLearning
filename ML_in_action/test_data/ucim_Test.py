@@ -24,19 +24,19 @@ class Data_Set():
     # FEATURES = ['after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
     # FEATURES = ['avg_T','std_T','width','rel_max_T','rel_min_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
     # FEATURES = ['avg_T','std_T', 'rel_max_T','rel_min_T','rel_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[-1]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]','after_T[-6]','after_T[-5]','after_T[-4]','after_T[-3]','after_T[-2]','after_T[-1]','after_T[0]','after_T[1]','after_T[2]','after_T[3]','after_T[4]','after_T[5]','after_T[6]', 'before_T[-6]', 'before_T[-5]', 'before_T[-4]', 'before_T[-3]', 'before_T[-2]', 'before_T[-1]', 'before_T[0]', 'before_T[1]', 'before_T[2]', 'before_T[3]', 'before_T[4]', 'before_T[5]', 'before_T[6]']
-    FEATURES = ['avg_T','std_T','width','rel_min_T','after_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
+    FEATURES = ['avg_T','std_T','rel_min_T','after_T[-6]','rel_T[-5]','rel_T[-4]','rel_T[-3]','rel_T[-2]','rel_T[0]','rel_T[1]','rel_T[2]','rel_T[3]','rel_T[4]','rel_T[5]','rel_T[6]']
 
 
 
     def Build_Data_Set(self):
-        data_df = pd.DataFrame.from_csv("final_data.csv")
+        data_df = pd.DataFrame.from_csv("Final_Training.csv")
         data_df = data_df.reindex(np.random.permutation(data_df.index))
 
         self.X = np.array(data_df[self.FEATURES].values)
         self.X = preprocessing.scale(self.X)
         self.y = (data_df["result_2"].values.tolist())
 
-        data_df2 = pd.DataFrame.from_csv("new_test3.csv")
+        data_df2 = pd.DataFrame.from_csv("Final_Testing.csv")
         data_df2 = data_df2.reindex(np.random.permutation(data_df2.index))
 
         self.X2 = np.array(data_df2[self.FEATURES].values)
@@ -143,10 +143,10 @@ def Analysis2_5():
     clf = grid.best_estimator_
     clf2 = grid.best_score_
     clf3 = grid.param_grid
-    print(grid.grid_scores_)
+    # print(grid.grid_scores_)
     print(clf)
     print(clf2)
-    # print(clf3)
+    print(clf3)
 
 
     # grid = GridSearchCV(svm.SVC, param_grid, cv=10, scoring='accuracy')
@@ -154,6 +154,8 @@ def Analysis2_5():
     #
     # print(grid.best_score_)
     # print(grid.best_params_)
+from matplotlib.ticker import LinearLocator, FormatStrFormatter
+from matplotlib import cm
 
 def Analysis2_6():
 
@@ -164,12 +166,12 @@ def Analysis2_6():
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
 
-    c_range = np.arange(1,100,1)
-    g_range = np.arange(0.0001,0.01,0.001)
+    # c_range = np.arange(1,100,2)
+    # g_range = np.arange(0.0001,0.01,0.0005)
 
 
-    # c_range = [ 0.1, 1, 10, 30, 50, 70, 100]
-    # g_range = [0.01, 0.005, 0.003, 0.001, 0.0005, 0.0001, 0.00001]
+    c_range = [0.1,0.5, 1, 10, 30, 50, 70, 100]
+    g_range = [0.005, 0.003, 0.001, 0.0005, 0.0001, 0.00001]
 
     c_range2=[]
     g_range2=[]
@@ -177,7 +179,7 @@ def Analysis2_6():
 
     for c in c_range:
         for g in g_range:
-            clf = svm.SVC(kernel="rbf", C= c, gamma= g)
+            clf = svm.SVC(kernel="sigmoid", C= c, gamma= g)
             scores = cross_val_score(clf,X,y, cv=5, scoring='accuracy')
             c_range2.append(c)
             g_range2.append(g)
@@ -185,11 +187,26 @@ def Analysis2_6():
 
     ax.scatter(c_range2, g_range2, c_scores, c='r', marker='o')
 
-    ax.set_xlabel('Value of C for SVM')
-    ax.set_ylabel('Value of gamma for SVM')
-    ax.set_zlabel('Accuracy')
+    ax.set_axis_bgcolor('white')
+    # ax.set_xlabel('Value of C')
+    # ax.set_ylabel('Value of Gamma')
+    # ax.set_zlabel('Accuracy')
 
     plt.show()
+
+
+    # c_range2, g_range2= np.meshgrid(c_range2, g_range2)
+    # surf = ax.plot_surface(c_range2, g_range2, c_scores, rstride=1, cstride=1, cmap=cm.coolwarm,
+    #                    linewidth=0, antialiased=False)
+    # ax.set_zlim(0, 1)
+    #
+    # ax.zaxis.set_major_locator(LinearLocator(10))
+    # ax.zaxis.set_major_formatter(FormatStrFormatter('%.02f'))
+    #
+    # fig.colorbar(surf, shrink=0.5, aspect=5)
+    #
+    # plt.show()
+
 
 
 
@@ -246,5 +263,5 @@ class test():
 #     print(correct_count)
 #     print(len(y2))
 #
-Analysis2_6()
+Analysis2_5()
 # Analysis3('rbf',10,1)

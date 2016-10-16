@@ -1,46 +1,67 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn import svm, preprocessing
+import talib
+from pylab import *
 import pandas as pd
-from matplotlib import style
-import math
+import numpy as np
+
+def __init__(self):
+    self.n = 4
+
+    try:
+        con = sqlite3.connect("new_kospi.db")
+        cursor = con.cursor()
+        cursor.execute("SELECT * FROM new_kospi")
+        rows = cursor.fetchall()
+
+        self.k_date, self.jisu, self.highjisu, self.lowjisu = [], [], [], []
+
+        for row in rows:
+            self.k_date.append(int(row[0]))
+            self.jisu.append(float(row[1]))
+            self.highjisu.append(float(row[2]))
+            self.lowjisu.append(float(row[3]))
+
+        self.k_date.reverse()
+        self.jisu.reverse()
+        self.highjisu.reverse()
+        self.lowjisu.reverse()
+        self.arr_date = np.array(self.k_date)
+        self.arr_close = np.array(self.jisu)
+        self.arr_high = np.array(self.highjisu)
+        self.arr_low = np.array(self.lowjisu)
+    except:
+        print("error database connection")
 
 
-df = pd.DataFrame.from_csv("TimeTablerf.csv")
-for x in df.columns:
-    print(x)
+def RSI(self):
+    rsi = talib.RSI(self.arr_close, timeperiod=4)
+    return rsi
 
-print()
-Bdf = df['Birthrate'].values
-Ddf = df['Deathrate'].values
-# print(type(Bdf))
-#
-#
-#
-# print(int(Bdf))
-
-
-def pearson(x,y):
-    n=len(x)
-    vals=range(n)
-    # 합한다.
-    sumx = sum([float(x[i]) for i in vals])
-    sumy = sum([float(y[i]) for i in vals])
-
-    # 제곱을 합한다.
-    sumxSq = sum([x[i]**2.0 for i in vals])
-    sumySq = sum([y[i]**2.0 for i in vals])
-
-    # 곱을 합한다.
-    pSum = sum([x[i]*y[i] for i in vals])
-
-    # 피어슨 점수를 계산한다.
-    num = pSum - (sumx*sumy/n)
-    den = ((sumxSq-pow(sumx,2)/n)*(sumySq-pow(sumy,2)/n))**.5
-    if den==0: return 0
-
-    r = num/den
-
-    return r
-
-print(pearson(Bdf,Ddf))
+"""relative algorithm for RSI
+from pylab import *
+import pandas as pd
+import numpy as np
+def Datapull(Stock):
+    try:
+        df = (pd.io.data.DataReader(Stock, 'yahoo', start='01/01/2010'))
+        return df
+        print
+        'Retrieved', Stock
+        time.sleep(5)
+    except Exception, e:
+        print
+        'Main Loop', str(e)
+def RSIfun(price, n=14):
+    delta = price['Close'].diff()
+    # -----------
+    dUp, dDown = delta.copy(), delta.copy()
+    dUp[dUp < 0] = 0
+    dDown[dDown > 0] = 0
+    RolUp = pd.rolling_mean(dUp, n)
+    RolDown = pd.rolling_mean(dDown, n).abs()
+    RS = RolUp / RolDown
+    rsi = 100.0 - (100.0 / (1.0 + RS))
+    return rsi
+Stock = 'AAPL'
+df = Datapull(Stock)
+RSIfun(df)
+"""
