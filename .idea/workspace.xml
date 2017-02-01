@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb1d0e7-9be4-43a5-9f4e-862eeb2eef39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tensorflow/LSTM Test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tensorflow/LSTM.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tensorflow/LSTM_KOSPI.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MachineLearning.iws" />
@@ -151,8 +147,8 @@
       <file leaf-file-name="LSTM_KOSPI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM_KOSPI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="437">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
                 <element signature="e#236#723#0" expanded="false" />
@@ -797,7 +793,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485245160967</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="정리">
+      <created>1485947567652</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1485947567652</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1269,8 +1272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM_KOSPI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="437">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
             <element signature="e#236#723#0" expanded="false" />
