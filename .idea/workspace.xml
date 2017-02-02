@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb1d0e7-9be4-43a5-9f4e-862eeb2eef39" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReinforcementLearning/Kimsung/Lab.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tensorflow/LSTM_KOSPI.py" afterPath="$PROJECT_DIR$/Tensorflow/LSTM_KOSPI.py" />
     </list>
     <ignored path="MachineLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +36,7 @@
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__4_.coverage" NAME="Unittests in ucim_Test (4) Coverage Results" MODIFIED="1477410836920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test3.coverage" NAME="Test3 Coverage Results" MODIFIED="1448975238271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$LSTM_Test.coverage" NAME="LSTM Test Coverage Results" MODIFIED="1485939689007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
-    <SUITE FILE_PATH="coverage/MachineLearning$LSTM_KOSPI.coverage" NAME="LSTM_KOSPI Coverage Results" MODIFIED="1485947094170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
+    <SUITE FILE_PATH="coverage/MachineLearning$LSTM_KOSPI.coverage" NAME="LSTM_KOSPI Coverage Results" MODIFIED="1486001557351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
     <SUITE FILE_PATH="coverage/MachineLearning$Build_key_stats.coverage" NAME="Build_key_stats Coverage Results" MODIFIED="1449570108648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim__5_.coverage" NAME="Unittests in Ucim (5) Coverage Results" MODIFIED="1455855601172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Back_testing.coverage" NAME="Back-testing Coverage Results" MODIFIED="1449573972773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -123,8 +125,8 @@
       <file leaf-file-name="LSTM.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="58" column="90" selection-start-line="6" selection-start-column="0" selection-end-line="58" selection-end-column="90" />
+            <state relative-caret-position="475">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -147,12 +149,22 @@
       <file leaf-file-name="LSTM_KOSPI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM_KOSPI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="1561">
+              <caret line="113" column="70" selection-start-line="113" selection-start-column="70" selection-end-line="113" selection-end-column="70" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
                 <element signature="e#236#723#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lab.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReinforcementLearning/Kimsung/Lab.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -215,6 +227,7 @@
         <option value="$PROJECT_DIR$/Tensorflow/RNN.py" />
         <option value="$PROJECT_DIR$/Tensorflow/LSTM Test.py" />
         <option value="$PROJECT_DIR$/Tensorflow/LSTM.py" />
+        <option value="$PROJECT_DIR$/ReinforcementLearning/Kimsung/Lab.py" />
         <option value="$PROJECT_DIR$/Tensorflow/LSTM_KOSPI.py" />
       </list>
     </option>
@@ -286,6 +299,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Tensorflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReinforcementLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kimsung" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -800,7 +831,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485947567652</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="LSTM_KOSPI #1">
+      <created>1485947665890</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1485947665890</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -897,7 +935,8 @@
     <MESSAGE value="Think Bayes 추가" />
     <MESSAGE value="Tensorflow 추가" />
     <MESSAGE value="정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="정리" />
+    <MESSAGE value="LSTM_KOSPI #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="LSTM_KOSPI #1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -913,13 +952,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Book/ML_in_action/Ch06/testSet.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Book/ML_in_action/Ch06/svmMLiA.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1219,26 +1251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="58" column="90" selection-start-line="6" selection-start-column="0" selection-end-line="58" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/866ae0b2/4b406ec1-53b1-4ed9-ad9b-d5a011c9bfa3/new_kospi">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1270,10 +1282,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ReinforcementLearning/Kimsung/Lab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM_KOSPI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="1561">
+          <caret line="113" column="70" selection-start-line="113" selection-start-column="70" selection-end-line="113" selection-end-column="70" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
             <element signature="e#236#723#0" expanded="false" />
