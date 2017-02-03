@@ -20,10 +20,19 @@ y = tf.placeholder(tf.float32, [None, n_classes])
 weights = tf.Variable(tf.random_normal([n_hidden, n_classes]))
 biases = tf.Variable(tf.random_normal([n_classes]))
 
+print(x)
 
 x2 = tf.transpose(x, [1, 0, 2])
+
+print(x2)
+
 x2= tf.reshape(x2, [-1, n_input])
+
+print(x2)
 x2 = tf.split(0, n_steps, x2 )
+
+print(x2)
+print(len(x2))
 
 lstm_cell = tf.nn.rnn_cell.BasicLSTMCell( n_hidden, forget_bias=1.0)
 outputs, states = tf.nn.rnn(lstm_cell, x2, dtype=tf.float32)
@@ -43,8 +52,8 @@ with tf.Session() as sess:
 
     while step * batch_size < training_iters:
         batch_x, batch_y = mnist.train.next_batch(batch_size)
+        print(batch_x.shape)
         batch_x = batch_x.reshape((batch_size, n_steps, n_input))
-
         sess.run(train, feed_dict={x: batch_x, y: batch_y})
         if step % display_step == 0:
             acc = sess.run(accuracy, feed_dict={x: batch_x, y: batch_y})
@@ -55,5 +64,8 @@ with tf.Session() as sess:
 
     test_len = 128
     test_data = mnist.test.images[:test_len].reshape((-1, n_steps, n_input))
+
+    print(test_data.shape)
+
     test_label = mnist.test.labels[:test_len]
     print("test accuracy: ", sess.run( accuracy, feed_dict={x: test_data, y: test_label}))
