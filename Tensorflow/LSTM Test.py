@@ -81,34 +81,35 @@ if __name__ == "__main__":
         profit = []
         for i in range(len(df['close'])-1):
             if df['close'][i] < df['close'][i+1]:
-                profit.append('1')
+                profit.append([1,0])
             else :
-                profit.append('0')
+                profit.append([0,1])
+        profit.append([2,2])
 
         return profit
 
-    profit = np.array(prediction())
-    profit = np.append(profit,np.NaN)
-    df['profit'] = profit
-
-
-
     print(df)
 
-    new_XX = np.array(df[FEATURES].values[:-1, :])
+
+    profit = np.array(prediction())
+    # profit = np.append(profit,np.NaN)
+
+    print(profit.shape)
+
+    # df['profit'] = profit
+
+
+
+
+    new_XX = np.array(df[FEATURES].values[:-2, :])
     print(new_XX.shape)
     print(new_XX)
-    new_YY = df['profit'].values[:-1]
+    # new_YY = df['profit'].values[:-2]
+    new_YY = profit[:-2]
+    # print(new_Y)
+    # new_YY = np.reshape(new_Y, [4616,2])
     print(new_YY)
 
-    #
-    # data =  np.array([[ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
-    #          [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39],
-    #          [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
-    #          [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]])
-    #
-    # label = [[0, 0, 1, 0, 0],
-    #          [1, 0, 0, 0, 0]]
 
     input = 4
     steps = 2
@@ -129,7 +130,7 @@ if __name__ == "__main__":
     b = tf.Variable(tf.truncated_normal([classes]))
 
     lstm = tf.nn.rnn_cell.BasicLSTMCell(steps)
-    output, state = tf.nn.rnn(lstm, x_input, dtype=tf.float32 )
+    output, state = tf.nn.rnn(lstm, x_input, dtype=tf.float32)
 
     pred = tf.nn.sigmoid(tf.matmul(output[-1], W ) + b)
 
@@ -139,7 +140,7 @@ if __name__ == "__main__":
     correct_pred = tf.equal( tf.argmax(pred,1), tf.argmax(y, 1))
     accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
 
-    init = tf.initialize_all_variables()
+    init = tf.global_variables_initializer()
 
     with tf.Session() as sess:
         feed_dict = {x: new_XX, y:new_YY}
@@ -150,4 +151,4 @@ if __name__ == "__main__":
             if i % 100 == 0 :
                 print (sess.run(accuracy, feed_dict))
 
-        print (sess.run( pred, feed_dict={x: new_XX}))
+        print(sess.run( pred, feed_dict={x: new_XX}))
