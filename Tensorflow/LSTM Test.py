@@ -122,15 +122,16 @@ if __name__ == "__main__":
     x = tf.placeholder(tf.float32, shape=[None, input])
     y = tf.placeholder(tf.float32, shape=[None, classes])
 
-    x_input = tf.split(0, 2, x)
+    x_input = tf.split(0, 1, x)
 
-    print(x_input)
+    # print(x_input)
 
     W = tf.Variable(tf.truncated_normal([hidden, classes]))
     b = tf.Variable(tf.truncated_normal([classes]))
 
     lstm = tf.nn.rnn_cell.BasicLSTMCell(steps)
     output, state = tf.nn.rnn(lstm, x_input, dtype=tf.float32)
+    # output, state = tf.nn.rnn(lstm, x, dtype=tf.float32)
 
     pred = tf.nn.sigmoid(tf.matmul(output[-1], W ) + b)
 
