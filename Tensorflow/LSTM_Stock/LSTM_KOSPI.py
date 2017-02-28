@@ -69,6 +69,7 @@ if __name__ == "__main__":
     print(df)
 
     new_XX = np.array(df[FEATURES].values[1:-1, :])
+
     print(new_XX.shape)
     #
     # learning_rate = 0.001
