@@ -22,7 +22,7 @@ class KOSPIDATA:
         self.arr_close = np.array(kospi['Adj Close'], dtype=float)
         self.arr_high = np.array(kospi.High, dtype=float)
         self.arr_low = np.array(kospi.Low, dtype=float)
-        self.arr_volume = np.array(kospi.Volume, dtype=float)
+        self.arr_volume = np.array(kospi.Volume, dtype=int)
 
 
     def MA5(self):
@@ -76,15 +76,16 @@ if __name__ == "__main__":
     K = KOSPIDATA()
 
     # FEATURES = ['high', 'low', 'open', 'close', 'volume']
-    FEATURES = ['high', 'low', 'open', 'close','ma5', 'ma10', 'fastk', 'fastd', 'slowd','momentum','roc','ad_oscil','disp5','disp10', 'oscp','cci','rsi']
+    FEATURES = ['high', 'low', 'open', 'close','volume','ma5', 'ma10', 'fastk', 'fastd', 'slowd','momentum','roc','ad_oscil','disp5','disp10', 'oscp','cci','rsi']
 
     data = {'year': K.arr_date,
             'open': K.arr_open,
             'high': K.arr_high,
             'low': K.arr_low,
-            'close': K.arr_close}
+            'close': K.arr_close,
+            'volume': K.arr_volume}
 
-    df = DataFrame(data, columns=['year', 'high', 'low', 'open', 'close','ma5', 'ma10', 'fastk', 'fastd', 'slowd','momentum','roc','ad_oscil','disp5','disp10', 'oscp','cci','rsi'])
+    df = DataFrame(data, columns=['year', 'high', 'low', 'open', 'close','volume','ma5', 'ma10', 'fastk', 'fastd', 'slowd','momentum','roc','ad_oscil','disp5','disp10', 'oscp','cci','rsi'])
 
 
     # print(df[df.volume==0].index)
@@ -104,6 +105,9 @@ if __name__ == "__main__":
     df.oscp , df.cci = K.OSCP(), K.CCI()
     df.rsi = K.RSI()
 
+    df = df.dropna()
+    df = df[~(df== 0).any(axis=1)]
+    df =df.reset_index(drop='True')
 
     def prediction():
         profit = []
@@ -117,48 +121,43 @@ if __name__ == "__main__":
         return profit
 
 
-    print(df)
 
     profit = np.array(prediction())
     # profit = np.append(profit,np.NaN)
 
-    print(profit.shape)
 
-    # df['profit'] = profit
-    # df = df.dropna()
-    # print(df)
-    new_X2 = np.array(df[FEATURES].values[20:-2, :])
-    imp = preprocessing.Imputer(missing_values='NaN', strategy='mean', axis=0)
-    imp.fit(new_X2)
-    new_XXX = preprocessing.scale(new_X2)
-    print(new_XXX)
+    new_XX = np.array(df[FEATURES].values[:-2, :])
+    # imp = preprocessing.Imputer(missing_values='NaN', strategy='mean', axis=0)
+    # imp.fit(new_X2)
+    # new_XXX = preprocessing.scale(new_X2)
+    # print(new_XXX)
 
-    # print(new_XX.shape)
-    # print(new_XX)
-    # # new_YY = df['profit'].values[:-2]
-    # new_YY = profit[20:-2]
-    # # print(new_Y)
-    # # new_YY = np.reshape(new_Y, [4616,2])
-    # print(new_YY)
-    #
-    # # create model
-    # model = Sequential()
-    # model.add(Dense(30, input_dim=17, init='he_normal', activation='relu'))
-    # model.add(Dense(15, init='he_normal', activation='relu'))
-    # # model.add(BatchNormalization())
-    # model.add(Dense(8, init='he_normal', activation='relu'))
-    # # model.add(BatchNormalization())
-    # model.add(Dense(6, init='he_normal', activation='relu'))
-    # # model.add(BatchNormalization())
-    # model.add(Dense(2, init='uniform', activation='sigmoid'))
-    # # model.add(BatchNormalization())
-    #
-    #
-    #
-    # # Compile model
-    # model.compile(loss='binary_crossentropy', optimizer='sgd', metrics=['accuracy'])
-    # # Fit the model
-    # model.fit(new_XX, new_YY, validation_split=0.25, nb_epoch=300, batch_size=10)
-    # # evaluate the model
-    # scores = model.evaluate(new_XX, new_YY)
-    # print("%s: %.2f%%" % (model.metrics_names[1], scores[1] * 100))
+    print(new_XX.shape)
+    print(new_XX)
+    # new_YY = df['profit'].values[:-2]
+    new_YY = profit[:-2]
+    # print(new_Y)
+    # new_YY = np.reshape(new_Y, [4616,2])
+    print(new_YY)
+
+    # create model
+    model = Sequential()
+    model.add(Dense(30, input_dim=18, init='he_normal', activation='relu'))
+    model.add(Dense(15, init='he_normal', activation='relu'))
+    model.add(BatchNormalization())
+    model.add(Dense(8, init='he_normal', activation='relu'))
+    model.add(BatchNormalization())
+    model.add(Dense(6, init='he_normal', activation='relu'))
+    model.add(BatchNormalization())
+    model.add(Dense(2, init='uniform', activation='sigmoid'))
+    # model.add(BatchNormalization())
+
+
+
+    # Compile model
+    model.compile(loss='binary_crossentropy', optimizer='sgd', metrics=['accuracy'])
+    # Fit the model
+    model.fit(new_XX, new_YY, validation_split=0.25, nb_epoch=150, batch_size=10)
+    # evaluate the model
+    scores = model.evaluate(new_XX, new_YY)
+    print("%s: %.2f%%" % (model.metrics_names[1], scores[1] * 100))
