@@ -26,6 +26,11 @@ y_train = np.random.random((1000, nb_classes))
 x_val = np.random.random((100, timesteps, data_dim))
 y_val = np.random.random((100, nb_classes))
 
-model.fit(x_train, y_train,
-          batch_size=64, nb_epoch=5,
-          validation_data=(x_val, y_val))
+
+print(x_val.shape)
+print(y_val.shape)
+
+
+# model.fit(x_train, y_train,
+#           batch_size=64, nb_epoch=5,
+#           validation_data=(x_val, y_val))

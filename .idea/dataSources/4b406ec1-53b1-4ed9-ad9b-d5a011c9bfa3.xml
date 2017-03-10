@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Sqlite (Xerial) - new_kospi.db">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="2.6">
+    <schema id="1">
+      <visible>1</visible>
+    </schema>
+    <table id="2" parent="1" name="new_kospi"/>
+    <column id="3" parent="2" name="k_date">
+      <data-type>TEXT(0,-1)|12</data-type>
+    </column>
+    <column id="4" parent="2" name="jisu">
+      <data-type>TEXT(0,-1)|12</data-type>
+    </column>
+    <column id="5" parent="2" name="highjisu">
+      <data-type>TEXT(0,-1)|12</data-type>
+    </column>
+    <column id="6" parent="2" name="lowjisu">
+      <data-type>TEXT(0,-1)|12</data-type>
+    </column>
+  </database-model>
+</dataSource>

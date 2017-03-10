@@ -9,7 +9,7 @@ import talib
 import tensorflow as tf
 from sklearn import svm, preprocessing
 from keras.layers.normalization import BatchNormalization
-
+import keras
 
 class KOSPIDATA:
     def __init__(self):
@@ -152,10 +152,12 @@ if __name__ == "__main__":
     model.add(Dense(2, init='uniform', activation='sigmoid'))
     # model.add(BatchNormalization())
 
-
+    keras.layers.recurrent.GRU(output_dim, init='glorot_uniform', inner_init='orthogonal', activation='tanh',
+                               inner_activation='hard_sigmoid', W_regularizer=None, U_regularizer=None,
+                               b_regularizer=None, dropout_W=0.0, dropout_U=0.0)
 
     # Compile model
-    model.compile(loss='binary_crossentropy', optimizer='sgd', metrics=['accuracy'])
+    model.compile(loss='categorical_crossentropy', optimizer='sgd', metrics=['accuracy'])
     # Fit the model
     model.fit(new_XX, new_YY, validation_split=0.25, nb_epoch=150, batch_size=10)
     # evaluate the model

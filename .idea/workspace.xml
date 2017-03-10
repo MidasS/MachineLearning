@@ -2,8 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb1d0e7-9be4-43a5-9f4e-862eeb2eef39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_TJ_Test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_28/weights-improvement-19-1.9435.hdf5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_28/weights-improvement-47-1.2219-bigger.hdf5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/deep_learning_with_python.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/4b406ec1-53b1-4ed9-ad9b-d5a011c9bfa3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/.ipynb_checkpoints/Untitled-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_02/theano_example.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_03/tensorflow_example.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_07/first_mlp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_07/pima-indians-diabetes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_08/automatic_split.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_08/manual_cross_validation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_08/manual_split.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_08/pima-indians-diabetes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_09/pima-indians-diabetes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_09/sklearn_cross_validation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_09/sklearn_grid_search_params.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_10/iris.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_10/iris_example.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_11/sonar.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_11/sonar_baseline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_11/sonar_standardized.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_11/sonar_standardized_larger.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_11/sonar_standardized_smaller.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_12/boston_baseline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_12/boston_standardized.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_12/boston_standardized_larger.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_12/boston_standardized_wider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_12/housing.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_13/pima-indians-diabetes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_13/serialize_json.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_13/serialize_yaml.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_14/checkpoint_best_model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_14/checkpoint_load.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_14/checkpoint_model_improvements.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_14/pima-indians-diabetes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_15/pima-indians-diabetes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_15/plot_history.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_16/baseline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_16/dropout_hidden.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_16/dropout_visible.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_16/sonar.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_17/decay_drop_based.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_17/decay_time_based.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_17/ionosphere.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_19/mnist_cnn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_19/mnist_cnn_large.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_19/mnist_mlp_baseline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_19/mnist_plot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_20/augment_baseline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_20/augment_feature_standardize.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_20/augment_flips.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_20/augment_rotations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_20/augment_save_to_file.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_20/augment_shifts.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_20/augment_zca.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_21/cifar10_cnn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_21/cifar10_cnn_large.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_21/cifar10_plot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_22/imdb_cnn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_22/imdb_mlp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_22/imdb_plot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_24/international-airline-passengers.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_24/mlp_simple.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_24/mlp_window.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_25/international-airline-passengers.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_25/lstm_simple.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_25/lstm_stacked.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_25/lstm_stateful.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_25/lstm_time_steps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_25/lstm_window.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_26/lstm_cnn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_26/lstm_dropout_gates.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_26/lstm_dropout_layers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_26/lstm_simple.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_27/lstm_char_seq_batch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_27/lstm_char_seq_features.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_27/lstm_char_seq_timesteps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_27/lstm_one_char.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_27/lstm_one_char_stateful.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_27/lstm_var_length.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_28/lstm_gen_text.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_28/lstm_larger.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_28/lstm_larger_gen_text.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_28/lstm_small.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_28/wonderland.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/LSTM+TA_Extended.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Untitled.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quantopian/.ipynb_checkpoints/Untitled-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quantopian/Untitled.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quantopian/tsla.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Keras/FNN+TA_Extended.py" afterPath="$PROJECT_DIR$/Keras/FNN+TA_Extended.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Keras/Keras Test.py" afterPath="$PROJECT_DIR$/Keras/Keras Test.py" />
     </list>
     <ignored path="MachineLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,9 +116,10 @@
     <SUITE FILE_PATH="coverage/MachineLearning$LSTM.coverage" NAME="LSTM Coverage Results" MODIFIED="1486736082602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
     <SUITE FILE_PATH="coverage/MachineLearning$sample.coverage" NAME="sample Coverage Results" MODIFIED="1448850417973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test__1_.coverage" NAME="Unittests in test (1) Coverage Results" MODIFIED="1455771153918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$LSTM_TA_Extended.coverage" NAME="LSTM+TA_Extended Coverage Results" MODIFIED="1488854106397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Keras" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__4_.coverage" NAME="Unittests in ucim_Test (4) Coverage Results" MODIFIED="1477410836920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Build_key_stats.coverage" NAME="Build_key_stats Coverage Results" MODIFIED="1449570108648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MachineLearning$Keras_Test.coverage" NAME="Keras Test Coverage Results" MODIFIED="1487829604620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Keras" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Keras_Test.coverage" NAME="Keras Test Coverage Results" MODIFIED="1488863755531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Keras" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim__5_.coverage" NAME="Unittests in Ucim (5) Coverage Results" MODIFIED="1455855601172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Back_testing.coverage" NAME="Back-testing Coverage Results" MODIFIED="1449573972773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$YahooCrawling.coverage" NAME="YahooCrawling Coverage Results" MODIFIED="1449567340619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -47,7 +140,7 @@
     <SUITE FILE_PATH="coverage/MachineLearning$Build_forward.coverage" NAME="Build_forward Coverage Results" MODIFIED="1449568500992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Population_01.coverage" NAME="Population_01 Coverage Results" MODIFIED="1464684571905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulation/Population" />
     <SUITE FILE_PATH="coverage/MachineLearning$Sample1.coverage" NAME="Sample1 Coverage Results" MODIFIED="1461662356002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulation" />
-    <SUITE FILE_PATH="coverage/MachineLearning$FNN_TA_Extended.coverage" NAME="FNN+TA_Extended Coverage Results" MODIFIED="1488443296324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Keras" />
+    <SUITE FILE_PATH="coverage/MachineLearning$FNN_TA_Extended.coverage" NAME="FNN+TA_Extended Coverage Results" MODIFIED="1488777636574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Keras" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__2_.coverage" NAME="Unittests in ucim_Test (2) Coverage Results" MODIFIED="1477410409854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test__3_.coverage" NAME="Unittests in test (3) Coverage Results" MODIFIED="1455770704892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test.coverage" NAME="Unittests in ucim_Test Coverage Results" MODIFIED="1477410285390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
@@ -57,6 +150,7 @@
     <SUITE FILE_PATH="coverage/MachineLearning$LSTM_KOSPI.coverage" NAME="LSTM_KOSPI Coverage Results" MODIFIED="1486189076364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
     <SUITE FILE_PATH="coverage/MachineLearning$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1482308243069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__1_.coverage" NAME="Unittests in ucim_Test (1) Coverage Results" MODIFIED="1477410894974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$mlp_simple.coverage" NAME="mlp_simple Coverage Results" MODIFIED="1489119909718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_24" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim__3_.coverage" NAME="Unittests in Ucim (3) Coverage Results" MODIFIED="1455855609504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test_forward_under.coverage" NAME="Test_forward_under Coverage Results" MODIFIED="1484124553991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineStock" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1455870659956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
@@ -65,6 +159,7 @@
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_Ucim.coverage" NAME="Unittests in Ucim Coverage Results" MODIFIED="1455855597773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machinelearninginaction/test_data" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test_forward.coverage" NAME="Test_forward Coverage Results" MODIFIED="1449572427355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$Unittests_in_ucim_Test__5_.coverage" NAME="Unittests in ucim_Test (5) Coverage Results" MODIFIED="1477410352774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_in_action/test_data" />
+    <SUITE FILE_PATH="coverage/MachineLearning$sonar_baseline.coverage" NAME="sonar_baseline Coverage Results" MODIFIED="1489038236811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_11" />
     <SUITE FILE_PATH="coverage/MachineLearning$Test4.coverage" NAME="Test4 Coverage Results" MODIFIED="1449467857403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -83,20 +178,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LSTM_KOSPI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM_Stock/LSTM_KOSPI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TJ_Test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow/TJ_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
+            <state relative-caret-position="399">
               <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -108,10 +193,34 @@
       <file leaf-file-name="Keras Test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Keras/Keras Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="646">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sonar_baseline.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_11/sonar_baseline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="e#53#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mlp_simple.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_24/mlp_simple.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+              <folding>
+                <element signature="e#83#95#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,7 +229,7 @@
       <file leaf-file-name="Keras_TJ_Test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Keras/Keras_TJ_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-950">
+            <state relative-caret-position="171">
               <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -142,7 +251,7 @@
       <file leaf-file-name="Keras+Stock_Basic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Keras/Keras+Stock_Basic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
+            <state relative-caret-position="1615">
               <caret line="93" column="65" selection-start-line="93" selection-start-column="65" selection-end-line="93" selection-end-column="65" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -151,21 +260,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LSTM.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM_Stock/LSTM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FNN+TA_Extended.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FNN+TA_Extended.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Keras/FNN+TA_Extended.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="161" column="43" selection-start-line="161" selection-start-column="43" selection-end-line="161" selection-end-column="43" />
+            <state relative-caret-position="2584">
+              <caret line="146" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="162" selection-end-column="67" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -173,12 +272,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LSTM Test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM_Stock/LSTM Test.py">
+      <file leaf-file-name="LSTM+TA_Extended.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Keras/LSTM+TA_Extended.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="110" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="2736">
+              <caret line="155" column="103" selection-start-line="155" selection-start-column="103" selection-end-line="155" selection-end-column="103" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,7 +287,7 @@
       <file leaf-file-name="Test2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow/Test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
+            <state relative-caret-position="684">
               <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -258,12 +359,14 @@
         <option value="$PROJECT_DIR$/Tensorflow/LSTM Test.py" />
         <option value="$PROJECT_DIR$/Tensorflow/LSTM_Stock/01_ex_stocks_rnn.py" />
         <option value="$PROJECT_DIR$/Tensorflow/tflearn test1.py" />
-        <option value="$PROJECT_DIR$/Keras/Keras Test.py" />
         <option value="$PROJECT_DIR$/Keras/Keras+Stock_Basic.py" />
         <option value="$PROJECT_DIR$/Tensorflow/LSTM_Stock/LSTM_KOSPI.py" />
         <option value="$PROJECT_DIR$/Keras/DF_Test.py" />
-        <option value="$PROJECT_DIR$/Keras/FNN+TA_Extended.py" />
         <option value="$PROJECT_DIR$/Keras/Keras_TJ_Test.py" />
+        <option value="$PROJECT_DIR$/Keras/FNN+TA_Extended.py" />
+        <option value="$PROJECT_DIR$/Keras/LSTM+TA_Extended.py" />
+        <option value="$PROJECT_DIR$/Keras/Keras Test.py" />
+        <option value="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_11/sonar_baseline.py" />
       </list>
     </option>
   </component>
@@ -274,8 +377,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="49" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -304,6 +407,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -376,14 +480,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Deep_Learning_Keras_Book" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Deep_Learning_Keras_Book" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Deep_Learning_Keras_Book" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter_24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MI_trading" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -409,25 +578,7 @@
       <recent name="D:\github\MachineLearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Keras_TJ_Test">
-    <configuration default="false" name="tflearn test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MachineLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/tflearn test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.mlp_simple">
     <configuration default="false" name="Keras Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -442,24 +593,6 @@
       <module name="MachineLearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Keras/Keras Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Keras+Stock_Basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Keras" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MachineLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Keras/Keras+Stock_Basic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -482,7 +615,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Keras_TJ_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="LSTM+TA_Extended" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -495,7 +628,43 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MachineLearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Keras/Keras_TJ_Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Keras/LSTM+TA_Extended.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sonar_baseline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MachineLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_11/sonar_baseline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mlp_simple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_24" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MachineLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_24/mlp_simple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -710,19 +879,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tflearn test1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Keras Test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Keras+Stock_Basic" />
-      <item index="3" class="java.lang.String" itemvalue="Python.FNN+TA_Extended" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Keras_TJ_Test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Keras Test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.FNN+TA_Extended" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LSTM+TA_Extended" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sonar_baseline" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mlp_simple" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Keras_TJ_Test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.FNN+TA_Extended" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Keras+Stock_Basic" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Keras Test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tflearn test1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mlp_simple" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sonar_baseline" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Keras Test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LSTM+TA_Extended" />
+        <item index="4" class="java.lang.String" itemvalue="Python.FNN+TA_Extended" />
       </list>
     </recent_temporary>
   </component>
@@ -922,7 +1091,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488443426671</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Keras+Ta_Extended 볼륨 = 0 임시 제거 / 53.26%">
+      <created>1488529064016</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1488529064016</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -967,10 +1143,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="49" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23987207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24253732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4947146" sideWeight="0.50208336" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1037,15 +1213,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ML_in_action/Ch06/test.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML_in_action/test_data/ng_data.csv" />
     <entry file="file://$PROJECT_DIR$/ML_in_action/test_data/ng_data2.csv" />
     <entry file="file://$PROJECT_DIR$/ML_in_action/README.rst" />
     <entry file="file://$PROJECT_DIR$/ML_in_action/test_data/ng_data_train.csv" />
@@ -1174,7 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,9 +1348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1577">
           <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,7 +1355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,9 +1362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1210,13 +1369,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="110" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM_Stock/LSTM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="646">
           <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
           <folding />
         </state>
@@ -1224,7 +1382,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/LSTM_Stock/LSTM_KOSPI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
+        <state relative-caret-position="1235">
           <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
@@ -1232,7 +1390,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/TJ_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="399">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -1242,7 +1400,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/Test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
+        <state relative-caret-position="684">
           <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -1252,18 +1410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Keras/Keras+Stock_Basic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
+        <state relative-caret-position="1615">
           <caret line="93" column="65" selection-start-line="93" selection-start-column="65" selection-end-line="93" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Keras/Keras Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -1272,7 +1420,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Keras/Keras_TJ_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
+        <state relative-caret-position="171">
           <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -1290,10 +1438,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Keras/FNN+TA_Extended.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="161" column="43" selection-start-line="161" selection-start-column="43" selection-end-line="161" selection-end-column="43" />
+        <state relative-caret-position="2584">
+          <caret line="146" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="162" selection-end-column="67" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keras/LSTM+TA_Extended.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="155" column="103" selection-start-line="155" selection-start-column="103" selection-end-line="155" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keras/Keras Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_11/sonar_baseline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="e#53#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keras/Deep_Learning_Keras_Book/code/chapter_24/mlp_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding>
+            <element signature="e#83#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
