@@ -1,36 +1,40 @@
+from __future__ import print_function
+from keras.preprocessing import sequence
 from keras.models import Sequential
-from keras.layers import LSTM, Dense
-import numpy as np
+from keras.layers import Dense, Embedding
+from keras.layers import LSTM
+from keras.datasets import imdb
 
-data_dim = 16
-timesteps = 8
-nb_classes = 10
+max_features = 20000
+maxlen = 80  # cut texts after this number of words (among top max_features most common words)
+batch_size = 32
 
-# expected input data shape: (batch_size, timesteps, data_dim)
+print('Loading data...')
+(x_train, y_train), (x_test, y_test) = imdb.load_data(nb_words = max_features)
+print(len(x_train), 'train sequences')
+print(len(x_test), 'test sequences')
+
+print('Pad sequences (samples x time)')
+x_train = sequence.pad_sequences(x_train, maxlen=maxlen)
+x_test = sequence.pad_sequences(x_test, maxlen=maxlen)
+print('x_train shape:', x_train.shape)
+print('x_test shape:', x_test.shape)
+
+print('Build model...')
 model = Sequential()
-model.add(LSTM(32, return_sequences=True,
-               input_shape=(timesteps, data_dim)))  # returns a sequence of vectors of dimension 32
-model.add(LSTM(32, return_sequences=True))  # returns a sequence of vectors of dimension 32
-model.add(LSTM(32))  # return a single vector of dimension 32
-model.add(Dense(10, activation='softmax'))
+model.add(Embedding(max_features, 128))
+model.add(LSTM(128, dropout_W=0.2, dropout_U=0.2))
+model.add(Dense(1, activation='sigmoid'))
 
-model.compile(loss='categorical_crossentropy',
-              optimizer='rmsprop',
+# try using different optimizers and different optimizer configs
+model.compile(loss='binary_crossentropy',
+              optimizer='adam',
               metrics=['accuracy'])
 
-# generate dummy training data
-x_train = np.random.random((1000, timesteps, data_dim))
-y_train = np.random.random((1000, nb_classes))
-
-# generate dummy validation data
-x_val = np.random.random((100, timesteps, data_dim))
-y_val = np.random.random((100, nb_classes))
-
-
-print(x_val.shape)
-print(y_val.shape)
-
-
-# model.fit(x_train, y_train,
-#           batch_size=64, nb_epoch=5,
-#           validation_data=(x_val, y_val))
+print('Train...')
+model.fit(x_train, y_train, batch_size=batch_size, nb_epoch=15,
+          validation_data=(x_test, y_test))
+score, acc = model.evaluate(x_test, y_test,
+                            batch_size=batch_size)
+print('Test score:', score)
+print('Test accuracy:', acc)
