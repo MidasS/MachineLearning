@@ -22,6 +22,10 @@ numpy.random.seed(7)
 dataframe = read_csv('international-airline-passengers.csv', usecols=[1], engine='python', skipfooter=3)
 dataset = dataframe.values
 dataset = dataset.astype('float32')
+print(dataset)
+print(dataset.shape)
+
+
 # normalize the dataset
 scaler = MinMaxScaler(feature_range=(0, 1))
 dataset = scaler.fit_transform(dataset)
@@ -33,9 +37,23 @@ train, test = dataset[0:train_size,:], dataset[train_size:len(dataset),:]
 look_back = 3
 trainX, trainY = create_dataset(train, look_back)
 testX, testY = create_dataset(test, look_back)
+
+print(trainX)
+print('-----')
+print(trainY)
+print(trainX.shape)
+print('-----')
+print(trainY.shape)
 # reshape input to be [samples, time steps, features]
 trainX = numpy.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
 testX = numpy.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
+
+print(trainX)
+print('-----')
+print(testX)
+print(trainX.shape)
+print('-----')
+print(testX.shape)
 # create and fit the LSTM network
 model = Sequential()
 model.add(LSTM(4, input_dim=look_back))
@@ -46,10 +64,17 @@ model.fit(trainX, trainY, nb_epoch=100, batch_size=1, verbose=2)
 trainPredict = model.predict(trainX)
 testPredict = model.predict(testX)
 # invert predictions
+
 trainPredict = scaler.inverse_transform(trainPredict)
 trainY = scaler.inverse_transform([trainY])
 testPredict = scaler.inverse_transform(testPredict)
 testY = scaler.inverse_transform([testY])
+
+print(trainPredict)
+print(trainPredict.shape)
+print(trainY)
+print(trainY.shape)
+
 # calculate root mean squared error
 trainScore = math.sqrt(mean_squared_error(trainY[0], trainPredict[:,0]))
 print('Train Score: %.2f RMSE' % (trainScore))

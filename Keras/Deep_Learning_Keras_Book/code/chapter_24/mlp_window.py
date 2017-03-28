@@ -23,6 +23,10 @@ dataframe = read_csv('international-airline-passengers.csv', usecols=[1], engine
 dataset = dataframe.values
 dataset = dataset.astype('float32')
 
+print(dataset)
+print(dataset.shape)
+
+
 # split into train and test sets
 train_size = int(len(dataset) * 0.67)
 test_size = len(dataset) - train_size

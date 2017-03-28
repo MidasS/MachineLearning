@@ -50,6 +50,10 @@ if __name__ == "__main__":
     # df = DataFrame(data, columns=['year', 'high', 'low', 'open', 'close'])
     df = DataFrame(data, columns=['year','close'])
 
+
+
+
+
     train_size = int(len(df['close']) * 0.67)
     test_size = len(df['close']) - train_size
     train, test = df['close'].values[0:train_size], df['close'].values[train_size:len(df['close'].values)]

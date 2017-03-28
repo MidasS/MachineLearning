@@ -88,7 +88,7 @@ if __name__ == "__main__":
     # Compile model
     model.compile(loss='binary_crossentropy' , optimizer='adam', metrics=['accuracy'])
     # Fit the model
-    model.fit(new_XX, new_YY, nb_epoch=150, batch_size=10)
+    model.fit(new_XX, new_YY, nb_epoch=150, batch_size=20)
     # evaluate the model
     scores = model.evaluate(new_XX, new_YY)
     print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
