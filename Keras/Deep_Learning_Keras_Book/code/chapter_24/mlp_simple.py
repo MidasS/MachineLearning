@@ -55,3 +55,8 @@ plt.plot(dataset)
 plt.plot(trainPredictPlot)
 plt.plot(testPredictPlot)
 plt.show()
+
+print(dataset.shape())
+
+print(trainPredict)
+print(trainPredictPlot)
