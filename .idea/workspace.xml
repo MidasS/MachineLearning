@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb1d0e7-9be4-43a5-9f4e-862eeb2eef39" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Keras/.ipynb_checkpoints/Keras_Lstm_ClosePrice_Classification-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Keras/DF_Test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Keras/DS_Keras_Rnn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Keras/Keras.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Keras/Keras_Lstm_ClosePrice_Classification.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Keras/__init__.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_Lstm_ClosePrice_Classification/.ipynb_checkpoints/01_Keras_Lstm_ClosePrice_Classification_01-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_Lstm_ClosePrice_Classification/.ipynb_checkpoints/02_Keras_NN_ClosePrice_Classification_01-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_Lstm_ClosePrice_Classification/.ipynb_checkpoints/Keras_Lstm_ClosePrice_Classification-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_Lstm_ClosePrice_Classification/01_Keras_Lstm_ClosePrice_Classification_01.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_Lstm_ClosePrice_Classification/02_Keras_NN_ClosePrice_Classification_01.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_Lstm_ClosePrice_Classification/Keras_Lstm_ClosePrice_Classification.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_NN/.ipynb_checkpoints/01_Keras_NN-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_NN/.ipynb_checkpoints/02_Keras_NN_ClosePrice_Classification_01-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_NN/01_Keras_NN.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_NN/02_Keras_NN_ClosePrice_Classification_01.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keras/Keras_NN/Keras.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MachineLearning.iws" />
@@ -196,12 +201,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TJ_Test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TJ_Test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow/TJ_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="437">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01_Keras_Lstm_ClosePrice_Classification_01.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Keras/Keras_Lstm_ClosePrice_Classification/01_Keras_Lstm_ClosePrice_Classification_01.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -399,6 +413,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LSTM_Tutorial_Imdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keras_Lstm_ClosePrice_Classification" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -986,7 +1018,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491205279511</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="폴더 분류 및 , Keras + NN 30%">
+      <created>1491287564797</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1491287564797</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1032,7 +1071,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4947146" sideWeight="0.50208336" order="12" side_tool="true" content_ui="tabs" />
@@ -1040,7 +1078,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5048754" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26615554" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27601314" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35995623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35995623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.49369368" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1090,7 +1128,8 @@
     <MESSAGE value="Keras+Close prediction 작업 50%중" />
     <MESSAGE value="Keras+Close prediction 완료" />
     <MESSAGE value="Keras+Close Classification Plot , LR 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Keras+Close Classification Plot , LR 추가" />
+    <MESSAGE value="폴더 분류 및 , Keras + NN 30%" />
+    <option name="LAST_COMMIT_MESSAGE" value="폴더 분류 및 , Keras + NN 30%" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1106,13 +1145,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MachineStock/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MachineStock/Test3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1449,9 +1481,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/TJ_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="437">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keras/Keras_Lstm_ClosePrice_Classification/01_Keras_Lstm_ClosePrice_Classification_01.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
